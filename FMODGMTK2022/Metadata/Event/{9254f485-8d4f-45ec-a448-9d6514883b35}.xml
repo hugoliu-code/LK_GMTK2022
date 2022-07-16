@@ -70,9 +70,6 @@
 		<relationship name="modules">
 			<destination>{39a0064d-5001-4d3b-91a9-3ccce87b712b}</destination>
 		</relationship>
-		<relationship name="markers">
-			<destination>{ecf92406-c172-4ca6-a5a7-12d29df49859}</destination>
-		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{38eebc97-4c65-494c-abea-092687a341bc}">
 		<relationship name="effectChain">
@@ -126,23 +123,6 @@
 		</relationship>
 		<relationship name="output">
 			<destination>{38eebc97-4c65-494c-abea-092687a341bc}</destination>
-		</relationship>
-	</object>
-	<object class="LoopRegion" id="{ecf92406-c172-4ca6-a5a7-12d29df49859}">
-		<property name="position">
-			<value>0</value>
-		</property>
-		<property name="length">
-			<value>0.080000000000000002</value>
-		</property>
-		<relationship name="timeline">
-			<destination>{b6815ea8-7918-460f-a0b7-956950719ef0}</destination>
-		</relationship>
-		<relationship name="markerTrack">
-			<destination>{b74c5f8f-1bd7-4169-8a4e-57856719dd7d}</destination>
-		</relationship>
-		<relationship name="triggerConditions">
-			<destination>{99673fc0-b8d6-425e-a653-abf89b83f942}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{4cbc3288-7ae1-4de4-9057-63a1aae12f28}">
@@ -208,20 +188,6 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{1909ff8c-f310-4c5e-9dbb-404892b9543e}" />
-	<object class="ParameterCondition" id="{99673fc0-b8d6-425e-a653-abf89b83f942}">
-		<property name="minimum">
-			<value>0.98999994993209839</value>
-		</property>
-		<property name="maximum">
-			<value>1</value>
-		</property>
-		<property name="isInverted">
-			<value>true</value>
-		</property>
-		<relationship name="parameter">
-			<destination>{da071348-0402-415e-95b5-114d40424559}</destination>
-		</relationship>
-	</object>
 	<object class="MixerBusFader" id="{576406ce-100a-47ee-9794-1e6ec68fb112}" />
 	<object class="SFXReverbEffect" id="{a6e661d0-5817-4c20-bdd6-7e3674bb41ab}">
 		<property name="bypass">

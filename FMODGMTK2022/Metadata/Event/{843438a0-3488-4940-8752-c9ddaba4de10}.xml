@@ -80,9 +80,6 @@
 			<destination>{17dce94b-39ae-44f0-9dd3-513b44149579}</destination>
 			<destination>{f926c252-346b-454c-bf3f-2010503d64ff}</destination>
 		</relationship>
-		<relationship name="markers">
-			<destination>{af79361c-b62a-484b-8b77-225a5bec9676}</destination>
-		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{2dd31adb-e353-4fad-8e78-618698f72e22}">
 		<relationship name="effectChain">
@@ -154,23 +151,6 @@
 			<destination>{2dd31adb-e353-4fad-8e78-618698f72e22}</destination>
 		</relationship>
 	</object>
-	<object class="LoopRegion" id="{af79361c-b62a-484b-8b77-225a5bec9676}">
-		<property name="position">
-			<value>0</value>
-		</property>
-		<property name="length">
-			<value>0.10200000000000001</value>
-		</property>
-		<relationship name="timeline">
-			<destination>{79273ded-2355-4f46-b24a-9ba3fe9f0200}</destination>
-		</relationship>
-		<relationship name="markerTrack">
-			<destination>{3d9a0404-cfbc-41cf-ba69-cf8be6d5767c}</destination>
-		</relationship>
-		<relationship name="triggerConditions">
-			<destination>{77502485-c2ad-491d-a6a6-452d2eff802d}</destination>
-		</relationship>
-	</object>
 	<object class="MixerBusEffectChain" id="{e009f4c6-42fb-461e-a5dc-462ed08de760}">
 		<relationship name="effects">
 			<destination>{0c8a86f6-1fb7-4424-b34e-6fc0162c22e0}</destination>
@@ -192,20 +172,6 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{9380bffa-abd7-46f7-bfaa-c9d36bf8a341}" />
-	<object class="ParameterCondition" id="{77502485-c2ad-491d-a6a6-452d2eff802d}">
-		<property name="minimum">
-			<value>0.98999994993209839</value>
-		</property>
-		<property name="maximum">
-			<value>1</value>
-		</property>
-		<property name="isInverted">
-			<value>true</value>
-		</property>
-		<relationship name="parameter">
-			<destination>{da071348-0402-415e-95b5-114d40424559}</destination>
-		</relationship>
-	</object>
 	<object class="MixerBusFader" id="{0c8a86f6-1fb7-4424-b34e-6fc0162c22e0}" />
 	<object class="MultibandEqEffect" id="{2b47134f-8d7d-4085-b451-ae1aa945f72b}">
 		<property name="filterTypeA">
