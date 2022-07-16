@@ -20,6 +20,7 @@ public class BasicEnemyController : MonoBehaviour
     [SerializeField] float chargeTime;
     [SerializeField] float jumpDelay;
     [SerializeField] Vector2 attackDirection = new Vector2(1,1);
+    public int health = 150;
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -30,8 +31,8 @@ public class BasicEnemyController : MonoBehaviour
         CheckGround();
         DetectPlayer();
         MoveToPlayer();
-
     }
+    
     private void CheckGround()
     {
         isTouchingGround = Physics2D.OverlapCircle((Vector2)transform.position + jumpColliderBottomOffset, jumpColliderRadius, groundLayer);
@@ -65,6 +66,11 @@ public class BasicEnemyController : MonoBehaviour
         {
             rb.velocity = new Vector2(runSpeed, rb.velocity.y);
         }
+        else
+        {
+            rb.velocity = new Vector2(0, rb.velocity.y);
+            notSeenPlayerYet = true;
+        }
     }
 
     IEnumerator Attack(Vector3 target)
@@ -89,6 +95,26 @@ public class BasicEnemyController : MonoBehaviour
 
         isAttacking = false;
     }
+
+
+
+
+
+    public void TakeDamage(int damage)
+    {
+        health-= damage;
+        if(health <= 0)
+        {
+            //do an animation of some kind
+            //Maybe flash the sprite and delete it
+            Destroy(this.gameObject);
+        }
+        else
+        {
+            //do something that shows damage?
+        }
+    }
+    
     void OnDrawGizmos()
     {
         Gizmos.color = Color.red;
