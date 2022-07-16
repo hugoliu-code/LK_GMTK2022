@@ -35,7 +35,9 @@ public class PlayerController : MonoBehaviour
     [Header("Animation and Sprites")]
     [SerializeField] Animator anim;
     private State state;
-
+    [Space(2)]
+    [Header("Controllers")]
+    private GameController gc;
     enum State
     {
         Run,
@@ -50,6 +52,7 @@ public class PlayerController : MonoBehaviour
     {
         //Initializing Components
         rb = GetComponent<Rigidbody2D>();
+        gc = FindObjectOfType<GameController>();
     }
     
     private void Update()
@@ -60,6 +63,13 @@ public class PlayerController : MonoBehaviour
         VerticalMovement();
         CheckDirection();
         AnimationController();
+    }
+    public void TakeDamage()
+    {
+        //play some kind of animation to show it
+
+        //Remove Health
+        gc.health -= 1;
     }
     void ConditionsCheck()
     {
