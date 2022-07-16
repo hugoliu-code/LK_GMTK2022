@@ -21,6 +21,16 @@ public class BasicEnemyController : MonoBehaviour
     [SerializeField] float jumpDelay;
     [SerializeField] Vector2 attackDirection = new Vector2(1,1);
     public int health = 150;
+    private bool isCharging;
+    private State state;
+    [SerializeField] Animator anim;
+    enum State
+    {
+        Run,
+        Attack,
+        Idle,
+        Charge
+    }
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -31,8 +41,28 @@ public class BasicEnemyController : MonoBehaviour
         CheckGround();
         DetectPlayer();
         MoveToPlayer();
+        AnimationController();
     }
-    
+    private void AnimationController()
+    {
+        if (isCharging)
+        {
+            state = State.Charge;
+        }
+        else if (isAttacking)
+        {
+            state = State.Attack;
+        }
+        else if(Mathf.Abs(rb.velocity.x) > 0.1f)
+        {
+            state = State.Run;
+        }
+        else
+        {
+            state = State.Idle;
+        }
+        anim.SetInteger("State", (int)state);
+    }
     private void CheckGround()
     {
         isTouchingGround = Physics2D.OverlapCircle((Vector2)transform.position + jumpColliderBottomOffset, jumpColliderRadius, groundLayer);
@@ -61,10 +91,12 @@ public class BasicEnemyController : MonoBehaviour
         if(transform.position.x > lastSeenPosition.x+1f)
         {
             rb.velocity = new Vector2(-runSpeed, rb.velocity.y);
+            transform.localScale = new Vector2(-1, 1);
         }
         else if (transform.position.x < lastSeenPosition.x - 1f)
         {
             rb.velocity = new Vector2(runSpeed, rb.velocity.y);
+            transform.localScale = new Vector2(1, 1);
         }
         else
         {
@@ -76,23 +108,29 @@ public class BasicEnemyController : MonoBehaviour
     IEnumerator Attack(Vector3 target)
     {
         isAttacking = true;
+        Vector2 forceToAdd = attackDirection.normalized * attackForce;
+        transform.localScale = new Vector2(1, 1);
+        if (target.x < transform.position.x)
+        {
+            forceToAdd.x = forceToAdd.x * -1;
+            transform.localScale = new Vector2(-1, 1);
+        }
+
         rb.velocity = new Vector2(0, 0);
 
         //Wait a second to charge
+        isCharging = true;
         yield return new WaitForSeconds(chargeTime);
+        isCharging = false;
 
-        Vector2 forceToAdd = attackDirection.normalized * attackForce;
-        if(target.x < transform.position.x)
-        {
-            forceToAdd.x = forceToAdd.x * -1;
-        }
         rb.AddForce(forceToAdd);
         yield return new WaitForSeconds(jumpDelay);
         while (!isTouchingGround)
         {
             yield return null;
         }
-
+        rb.velocity = new Vector2(0, 0);
+        yield return new WaitForSeconds(0.5f);
         isAttacking = false;
     }
 
