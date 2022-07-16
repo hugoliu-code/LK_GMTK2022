@@ -23,22 +23,29 @@ public class PlayerController : MonoBehaviour
     [Header("Conditions")]
     [SerializeField] Vector2 jumpColliderBottomOffset;
     [SerializeField] float jumpColliderRadius;
+    public bool facingRight; //the mouse is to the right of the player;
     private bool isTouchingGround = false;
     private bool isRolling = false;
     [Header("LayerMasks")]
     [SerializeField] LayerMask groundLayer;
+
+    //Animation
+    private Animator anim;
     #endregion 
     private void Start()
     {
         //Initializing Components
         rb = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
     }
+    
     private void Update()
     {
         ConditionsCheck();
         HorizontalMovement();
         RollMovement();
         VerticalMovement();
+        CheckDirection();
     }
     void ConditionsCheck()
     {
@@ -48,7 +55,28 @@ public class PlayerController : MonoBehaviour
 
 
 
+    void CheckDirection()
+    {
+        Vector3 worldPosMouse = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        worldPosMouse.z = 0;
+        if(worldPosMouse.x > transform.position.x)
+        {
+            facingRight = true;
+        }
+        else
+        {
+            facingRight = false;
+        }
 
+        if (facingRight)
+        {
+            transform.localScale = new Vector3(1, 1, 1);
+        }
+        else
+        {
+            transform.localScale = new Vector3(-1, 1, 1);
+        }
+    }
     #region Horizontal Movement
     void HorizontalMovement()
     {
@@ -60,12 +88,12 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetKey(KeyCode.D))
         {
-            transform.localScale = new Vector3(1, 1, 1);
+            //transform.localScale = new Vector3(1, 1, 1);
             rb.velocity = new Vector2(runSpeed, rb.velocity.y);
         }
         else if (Input.GetKey(KeyCode.A))
         {
-            transform.localScale = new Vector3(-1, 1, 1);
+            //transform.localScale = new Vector3(-1, 1, 1);
             rb.velocity = new Vector2(-runSpeed, rb.velocity.y);
         }
         else

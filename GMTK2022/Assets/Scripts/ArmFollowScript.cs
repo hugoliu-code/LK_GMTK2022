@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class ArmFollowScript : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] PlayerController player;
+    private void Update()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        Vector3 worldPosMouse = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        worldPosMouse.z = 0;
+        float angleOfRotation = Mathf.Atan2(worldPosMouse.y - transform.position.y, worldPosMouse.x - transform.position.x) * Mathf.Rad2Deg;
+        if (player.facingRight)
+            transform.rotation = Quaternion.Euler(0, 0, angleOfRotation);
+        else
+            transform.rotation = Quaternion.Euler(0, 0, angleOfRotation + 180);
     }
 }
