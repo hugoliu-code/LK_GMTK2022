@@ -38,6 +38,10 @@ public class PlayerController : MonoBehaviour
     [Space(2)]
     [Header("Controllers")]
     private GameController gc;
+    [Header("Damage")]
+    [SerializeField] float invincibilityTime = 2;
+    private float invincibleUntil = 0;
+    
     enum State
     {
         Run,
@@ -66,9 +70,15 @@ public class PlayerController : MonoBehaviour
     }
     public void TakeDamage()
     {
+        if(isRolling || invincibleUntil > Time.time)
+        {
+            return;
+        }
+        invincibleUntil = Time.time + invincibilityTime;
         //play some kind of animation to show it
 
         //Remove Health
+        
         gc.health -= 1;
     }
     void ConditionsCheck()

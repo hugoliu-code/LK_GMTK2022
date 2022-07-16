@@ -1,9 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using System;
 public class GunController : MonoBehaviour
 {
+    public event EventHandler onReload;
+    public event EventHandler onReloadFinish;
     #region Variables
     [Header("Gun Stats")]
   
@@ -12,10 +14,11 @@ public class GunController : MonoBehaviour
     [SerializeField] float bulletSpread;
     [SerializeField] int maxAmmo = 10;
     [SerializeField] float reloadTime; //how long it takes to reload
+    private float finishReloadTime = 0;
     [SerializeField] float shotgunShots = 1; //how many bullets per shot
     [SerializeField] int damage;
-    private int currentAmmo;
-    private float nextAvailableReloadTime = 0;
+    public int currentAmmo;
+    public bool isReloading = false;
     private float nextAvailableFireTime = 0;
     [Space(2)]
     [Header("Object References")]
@@ -26,9 +29,9 @@ public class GunController : MonoBehaviour
     #endregion
     private void Start()
     {
-        currentAmmo = maxAmmo;
         gm = FindObjectOfType<GunManager>();
         UpdateGun();
+        currentAmmo = maxAmmo;
     }
     private void UpdateGun()
     {
@@ -55,7 +58,14 @@ public class GunController : MonoBehaviour
          */
         if (Input.GetMouseButton(0))
         {
-            if (Time.time < nextAvailableFireTime || currentAmmo <= 0 || player.isRolling)
+            if(currentAmmo <= 0 && !isReloading)
+            {
+                onReload?.Invoke(this, EventArgs.Empty);
+                isReloading = true;
+                finishReloadTime = Time.time + reloadTime;
+                Invoke("Reload", reloadTime);
+            }
+            if (Time.time < nextAvailableFireTime || currentAmmo <= 0 || player.isRolling || isReloading)
             {
                 return;
             }
@@ -80,7 +90,7 @@ public class GunController : MonoBehaviour
         //FMODUnity.RuntimeManager.PlayOneShot("event:/Characters/Player/Pistol", GetComponent<Transform>().position);
 
         //Creating New endpoint with spread
-        float spread = Random.Range(-bulletSpread / 2, bulletSpread / 2);
+        float spread = UnityEngine.Random.Range(-bulletSpread / 2, bulletSpread / 2);
         Vector3 worldPosMouseWithSpread = worldPosMouse - gunTipIndicator.position; //the relative vector from P2 to P1.
         worldPosMouseWithSpread = Quaternion.Euler(0, 0, spread) * worldPosMouseWithSpread; //rotatate
         worldPosMouseWithSpread = gunTipIndicator.position + worldPosMouseWithSpread; //bring back to world space
@@ -101,10 +111,19 @@ public class GunController : MonoBehaviour
     }
     void ReloadController()
     {
-        if (Input.GetKeyDown(KeyCode.R))
+        if (Input.GetKeyDown(KeyCode.R) && finishReloadTime < Time.time)
         {
-            currentAmmo = maxAmmo;
+            onReload?.Invoke(this, EventArgs.Empty);
+            isReloading = true;
+            finishReloadTime = Time.time + reloadTime;
+            Invoke("Reload", reloadTime);
         }
+    }
+    void Reload()
+    {
+        currentAmmo = maxAmmo;
+        isReloading = false;
+        onReloadFinish?.Invoke(this,EventArgs.Empty);
     }
 
 }
