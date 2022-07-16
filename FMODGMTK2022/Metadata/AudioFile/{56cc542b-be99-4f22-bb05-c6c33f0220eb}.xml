@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="AudioFile" id="{a233c6ad-dbef-4e08-88de-1613b5ed354f}">
+	<object class="AudioFile" id="{56cc542b-be99-4f22-bb05-c6c33f0220eb}">
 		<property name="assetPath">
-			<value>Weapons/Pistols/Pistol_01_Fire_01_SFX.wav</value>
+			<value>Weapons/Pistols/Hand Gun_6.wav</value>
 		</property>
 		<property name="frequencyInKHz">
-			<value>44.0999985</value>
+			<value>48</value>
 		</property>
 		<property name="channelCount">
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>1.379297052154195</value>
+			<value>0.8125</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{f381ef6a-5062-4752-93d0-71dd3353eb71}</destination>

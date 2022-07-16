@@ -117,7 +117,6 @@
 		<property name="length">
 			<value>3.5</value>
 		</property>
-		<property name="name" />
 		<relationship name="audioFile">
 			<destination>{272ac1c7-02b8-40cb-8742-1c63e2796115}</destination>
 		</relationship>
@@ -127,12 +126,11 @@
 			<value>3.5</value>
 		</property>
 		<property name="length">
-			<value>4.0439408866995095</value>
+			<value>2</value>
 		</property>
 		<property name="timelockedOffset">
 			<value>8.0246305418719199</value>
 		</property>
-		<property name="name" />
 		<relationship name="audioFile">
 			<destination>{272ac1c7-02b8-40cb-8742-1c63e2796115}</destination>
 		</relationship>

@@ -62,10 +62,14 @@ MonoBehaviour:
   Path: ../FMODGMTK2022/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
+<<<<<<< Updated upstream
   lastModified: 637935199886555413
+=======
+  lastModified: 637935095665449089
+>>>>>>> Stashed changes
   FileSizes:
   - Name: Desktop
-    Value: 1843616
+    Value: 1871712
   Exists: 1
 --- !u!114 &-5501110278138308386
 MonoBehaviour:
@@ -94,6 +98,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-5444532491788872818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Weapons/Commons/Glock/New Event
+  m_EditorClassIdentifier: 
+  Path: event:/Weapons/Commons/Glock/New Event
+  Guid:
+    Data1: -1575627345
+    Data2: 1099128786
+    Data3: 209610149
+    Data4: 305270288
+  Banks:
+  - {fileID: -6622224775562003572}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1500
 --- !u!114 &-5357007928085389528
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -109,10 +140,14 @@ MonoBehaviour:
   Path: ../FMODGMTK2022/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
+<<<<<<< Updated upstream
   lastModified: 637935186366966292
+=======
+  lastModified: 637935095665469103
+>>>>>>> Stashed changes
   FileSizes:
   - Name: Desktop
-    Value: 1050
+    Value: 1108
   Exists: 1
 --- !u!114 &-1614182193153271359
 MonoBehaviour:
@@ -191,12 +226,17 @@ MonoBehaviour:
   - {fileID: -6875647195363898948}
   - {fileID: 2287431642340921216}
   - {fileID: -214133039866137206}
+  - {fileID: -5444532491788872818}
   EditorParameters: []
   MasterBanks:
   - {fileID: -6622224775562003572}
   StringsBanks:
   - {fileID: -5357007928085389528}
+<<<<<<< Updated upstream
   cacheTime: 637935199886555413
+=======
+  cacheTime: 637935095665469103
+>>>>>>> Stashed changes
   cacheVersion: 131591
 --- !u!114 &585209478523585835
 MonoBehaviour:
