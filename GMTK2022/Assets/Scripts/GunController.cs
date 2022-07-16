@@ -106,6 +106,8 @@ public class GunController : MonoBehaviour
         //Screenshake
         //gm.screenShake.SmallShake();
 
+        //SOUND
+
         //New Last Shot Time
         nextAvailableFireTime = Time.time + fireRate;
     }

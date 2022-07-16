@@ -17,4 +17,5 @@ public class GunType : ScriptableObject
     public int damage;
     public int rarity; //from 0 to 3
     public Vector2 offSet;
+    public string audioPath;
 }
