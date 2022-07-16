@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{03628388-2eb4-4cc6-808f-6b7cf4635b16}">
+		<property name="assetPath">
+			<value>SFX/Minecraft Damage Sound Effect.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>11.7376875</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{f381ef6a-5062-4752-93d0-71dd3353eb71}</destination>
+		</relationship>
+	</object>
+</objects>

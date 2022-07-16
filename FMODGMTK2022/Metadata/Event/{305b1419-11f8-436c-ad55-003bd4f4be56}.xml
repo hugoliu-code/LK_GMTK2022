@@ -115,7 +115,7 @@
 	<object class="MixerBusPanner" id="{15d509dd-f210-48be-bec6-d5d51976920f}" />
 	<object class="SingleSound" id="{7bfe53a4-e821-4376-98e8-b8e1b124b9bc}">
 		<property name="length">
-			<value>3.5</value>
+			<value>2.3000000000000003</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{272ac1c7-02b8-40cb-8742-1c63e2796115}</destination>
@@ -123,7 +123,7 @@
 	</object>
 	<object class="SingleSound" id="{80bcc825-648d-4b2c-a049-cfe05eff8939}">
 		<property name="start">
-			<value>3.5</value>
+			<value>2.3000000000000003</value>
 		</property>
 		<property name="length">
 			<value>2</value>
@@ -164,10 +164,10 @@
 	</object>
 	<object class="TransitionRegion" id="{e15b46c6-7f0e-405e-bb1e-c7864f70bdb5}">
 		<property name="position">
-			<value>0.70000000000000007</value>
+			<value>0.40000000000000002</value>
 		</property>
 		<property name="length">
-			<value>2.7999999999999994</value>
+			<value>1.9000000000000004</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{7f3d1f05-d4f9-4e60-9fa0-d4f953998284}</destination>
@@ -187,7 +187,7 @@
 	</object>
 	<object class="LoopRegion" id="{3da52cb5-6ecc-47ba-9c4c-2a4c10517782}">
 		<property name="position">
-			<value>3.4999999999999996</value>
+			<value>2.3000000000000003</value>
 		</property>
 		<property name="length">
 			<value>1.9000000000000004</value>
