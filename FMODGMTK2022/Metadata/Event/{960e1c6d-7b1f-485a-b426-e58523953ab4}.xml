@@ -104,7 +104,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{c2adf2b9-3759-4d98-856e-2e41d637d378}">
 		<property name="volume">
-			<value>-13</value>
+			<value>-19</value>
 		</property>
 		<property name="name">
 			<value>Audio 1</value>
@@ -123,6 +123,7 @@
 		<relationship name="effects">
 			<destination>{ca1449ef-8761-427d-a6dd-eb0354c70c6a}</destination>
 			<destination>{041da3a4-2bc3-44e6-be8b-4cc54d213922}</destination>
+			<destination>{22174043-f7b5-4772-9e9c-9e66d273285e}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{0c8123a6-9793-4a1a-9cfb-fc0b210ac951}" />
@@ -143,23 +144,40 @@
 	<object class="MixerBusPanner" id="{83f67ae2-705b-4a7e-bc86-e09e2144d849}" />
 	<object class="MixerBusFader" id="{ca1449ef-8761-427d-a6dd-eb0354c70c6a}" />
 	<object class="MultibandEqEffect" id="{041da3a4-2bc3-44e6-be8b-4cc54d213922}">
-		<property name="filterTypeA">
-			<value>8</value>
-		</property>
 		<property name="filterTypeB">
 			<value>7</value>
 		</property>
 		<property name="frequencyA">
-			<value>6753.43848</value>
+			<value>10220.8965</value>
 		</property>
 		<property name="frequencyB">
-			<value>65.1519775</value>
+			<value>76.8976746</value>
 		</property>
 		<property name="qualityA">
-			<value>0.974517226</value>
+			<value>0.644206941</value>
+		</property>
+		<property name="gainA">
+			<value>-30</value>
 		</property>
 		<property name="gainB">
-			<value>-19.6551723</value>
+			<value>-30</value>
+		</property>
+	</object>
+	<object class="SFXReverbEffect" id="{22174043-f7b5-4772-9e9c-9e66d273285e}">
+		<property name="earlyDelay">
+			<value>98</value>
+		</property>
+		<property name="lateDelay">
+			<value>38</value>
+		</property>
+		<property name="lowShelfFrequency">
+			<value>660</value>
+		</property>
+		<property name="earlyLateMix">
+			<value>84</value>
+		</property>
+		<property name="wetLevel">
+			<value>-21</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{e4bab672-74b8-46c3-bdc5-a151eb897e92}">

@@ -112,6 +112,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{6ea37fb2-82d9-406a-bfde-c644dfbb7f11}">
+		<property name="volume">
+			<value>-9</value>
+		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
@@ -130,7 +133,7 @@
 			<value>0</value>
 		</property>
 		<property name="length">
-			<value>0.075999999999999998</value>
+			<value>0.080000000000000002</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{b6815ea8-7918-460f-a0b7-956950719ef0}</destination>
@@ -221,6 +224,9 @@
 	</object>
 	<object class="MixerBusFader" id="{576406ce-100a-47ee-9794-1e6ec68fb112}" />
 	<object class="SFXReverbEffect" id="{a6e661d0-5817-4c20-bdd6-7e3674bb41ab}">
+		<property name="bypass">
+			<value>true</value>
+		</property>
 		<property name="earlyDelay">
 			<value>98</value>
 		</property>

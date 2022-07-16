@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="AudioFile" id="{f3c4a014-9d24-4352-9318-111141067589}">
+	<object class="AudioFile" id="{8dd75337-0892-4527-9120-76fdfbc385e8}">
 		<property name="assetPath">
-			<value>spoo.wav</value>
-		</property>
-		<property name="isStreaming">
-			<value>true</value>
+			<value>SFX/zapsplat_foley_money_coins_drop_onto_wooden_deck_18975.mp3</value>
 		</property>
 		<property name="frequencyInKHz">
-			<value>44.0999985</value>
+			<value>48</value>
 		</property>
 		<property name="channelCount">
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>42</value>
+			<value>1.6319999999999999</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{f381ef6a-5062-4752-93d0-71dd3353eb71}</destination>

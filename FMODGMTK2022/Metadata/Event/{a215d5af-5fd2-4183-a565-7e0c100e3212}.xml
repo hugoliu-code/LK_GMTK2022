@@ -72,6 +72,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{ba6475e8-e282-492d-acfd-02b1a423067d}">
+		<property name="volume">
+			<value>-7.5</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{dfe897c7-300a-43bb-8ccc-60b5d03a939a}</destination>
 		</relationship>
@@ -95,9 +98,6 @@
 		<property name="length">
 			<value>1.5</value>
 		</property>
-		<property name="playlistMode">
-			<value>1</value>
-		</property>
 		<relationship name="sounds">
 			<destination>{9c1af7ec-2167-403f-99fb-b93849170caa}</destination>
 			<destination>{09ea0390-e537-498b-9b0c-596b562496c2}</destination>
@@ -105,7 +105,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{a164280f-ed8b-4066-9045-afabcaab3aa7}">
 		<property name="volume">
-			<value>-6</value>
+			<value>-8</value>
 		</property>
 		<property name="name">
 			<value>Audio 1</value>
@@ -150,13 +150,13 @@
 			<value>7</value>
 		</property>
 		<property name="frequencyA">
-			<value>5266.79639</value>
+			<value>4023.18384</value>
 		</property>
 		<property name="frequencyB">
-			<value>111.655685</value>
+			<value>176.133224</value>
 		</property>
 		<property name="qualityA">
-			<value>0.885344803</value>
+			<value>0.751586199</value>
 		</property>
 		<property name="gainB">
 			<value>-30</value>
