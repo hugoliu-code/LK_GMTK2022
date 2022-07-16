@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{e495d9b7-9265-4e63-8512-8a2c5f2905d7}">
+		<property name="assetPath">
+			<value>Weapons/Shotguns/Remington 870 Shotgun Sound Effects For Remix Free Download I Sound Effects Gunshot Shotgun Pump-YoutubeConvert.cc - Trimmed.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.7463038548752835</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{f381ef6a-5062-4752-93d0-71dd3353eb71}</destination>
+		</relationship>
+	</object>
+</objects>
