@@ -131,9 +131,6 @@
 		<property name="volume">
 			<value>-4</value>
 		</property>
-		<relationship name="audioFile">
-			<destination>{5aef627c-fae0-47aa-8d9c-fa5360485fae}</destination>
-		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{261da1d7-1e7c-446c-9737-b132a27a5a97}">
 		<relationship name="effects">

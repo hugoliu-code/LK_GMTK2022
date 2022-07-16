@@ -105,7 +105,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{a164280f-ed8b-4066-9045-afabcaab3aa7}">
 		<property name="volume">
-			<value>-8</value>
+			<value>-2.5</value>
 		</property>
 		<property name="name">
 			<value>Audio 1</value>
@@ -150,13 +150,13 @@
 			<value>7</value>
 		</property>
 		<property name="frequencyA">
-			<value>4023.18384</value>
+			<value>8308.2002</value>
 		</property>
 		<property name="frequencyB">
-			<value>176.133224</value>
+			<value>131.785141</value>
 		</property>
 		<property name="qualityA">
-			<value>0.751586199</value>
+			<value>0.476758599</value>
 		</property>
 		<property name="gainB">
 			<value>-30</value>

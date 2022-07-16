@@ -215,7 +215,61 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 610
+  Length: 1290
+--- !u!114 &-3276804854969024131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Weapons/Commons/Glock/Glock_Reload
+  m_EditorClassIdentifier: 
+  Path: event:/Weapons/Commons/Glock/Glock_Reload
+  Guid:
+    Data1: 408344257
+    Data2: 1219538988
+    Data3: -1037838713
+    Data4: 1414598294
+  Banks:
+  - {fileID: -2910034085272037449}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1520
+--- !u!114 &-3177541128428118416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Weapons/Commons/Deagle/Deagle_Reload
+  m_EditorClassIdentifier: 
+  Path: event:/Weapons/Commons/Deagle/Deagle_Reload
+  Guid:
+    Data1: -1125890567
+    Data2: 1304535777
+    Data3: 1845987724
+    Data4: -1102082762
+  Banks:
+  - {fileID: -2910034085272037449}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-3095297350492720232
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -258,10 +312,14 @@ MonoBehaviour:
   Path: ../FMODGMTK2022/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
+<<<<<<< Updated upstream
   lastModified: 637935929779494446
+=======
+  lastModified: 637935842757506343
+>>>>>>> Stashed changes
   FileSizes:
   - Name: Desktop
-    Value: 3421792
+    Value: 3455808
   Exists: 1
 --- !u!114 &-2663065046778666093
 MonoBehaviour:
@@ -498,12 +556,19 @@ MonoBehaviour:
   - {fileID: -8843732884271485355}
   - {fileID: 6176663172477170404}
   - {fileID: -2445451075860548217}
+  - {fileID: -3276804854969024131}
+  - {fileID: 3698373861860687091}
+  - {fileID: -3177541128428118416}
   EditorParameters: []
   MasterBanks:
   - {fileID: -2910034085272037449}
   StringsBanks:
   - {fileID: 5833994952527899330}
+<<<<<<< Updated upstream
   cacheTime: 637935929779624106
+=======
+  cacheTime: 637935842757536325
+>>>>>>> Stashed changes
   cacheVersion: 131591
 --- !u!114 &325805665480679112
 MonoBehaviour:
@@ -641,6 +706,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &3698373861860687091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Weapons/Commons/M9/M9_Reload
+  m_EditorClassIdentifier: 
+  Path: event:/Weapons/Commons/M9/M9_Reload
+  Guid:
+    Data1: 900519874
+    Data2: 1340782533
+    Data3: -2045696101
+    Data4: -1084202460
+  Banks:
+  - {fileID: -2910034085272037449}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 871
 --- !u!114 &4493258497979310691
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -737,10 +829,14 @@ MonoBehaviour:
   Path: ../FMODGMTK2022/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
+<<<<<<< Updated upstream
   lastModified: 637935929779624106
+=======
+  lastModified: 637935842757536325
+>>>>>>> Stashed changes
   FileSizes:
   - Name: Desktop
-    Value: 2244
+    Value: 2392
   Exists: 1
 --- !u!114 &6176663172477170404
 MonoBehaviour:

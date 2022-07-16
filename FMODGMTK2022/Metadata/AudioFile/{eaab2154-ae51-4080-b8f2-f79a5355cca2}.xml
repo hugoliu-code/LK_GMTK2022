@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{eaab2154-ae51-4080-b8f2-f79a5355cca2}">
+		<property name="assetPath">
+			<value>Weapons/Pistols/Handling_Gun_01_Clip_In_SFX.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.0061224489795919</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{f381ef6a-5062-4752-93d0-71dd3353eb71}</destination>
+		</relationship>
+	</object>
+</objects>

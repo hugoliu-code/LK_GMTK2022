@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="AudioFile" id="{5aef627c-fae0-47aa-8d9c-fa5360485fae}">
+	<object class="AudioFile" id="{acf9076a-3c6a-4cd2-a360-e6220bbe1f5d}">
 		<property name="assetPath">
-			<value>Weapons/Pistols/Handling_Gun_01_Arming_SFX.wav</value>
+			<value>Weapons/Pistols/Pistol_01_Fire_05_SFX.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>
@@ -11,7 +11,7 @@
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>0.29165532879818595</value>
+			<value>1.379297052154195</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{f381ef6a-5062-4752-93d0-71dd3353eb71}</destination>
