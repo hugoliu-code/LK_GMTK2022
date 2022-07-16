@@ -154,7 +154,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   collidables:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 320
+  damage: 40
 --- !u!50 &6811306345369704924
 Rigidbody2D:
   serializedVersion: 4

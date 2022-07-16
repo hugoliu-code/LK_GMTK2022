@@ -13,6 +13,7 @@ public class GunController : MonoBehaviour
     [SerializeField] int maxAmmo = 10;
     [SerializeField] float reloadTime; //how long it takes to reload
     [SerializeField] float shotgunShots = 1; //how many bullets per shot
+    [SerializeField] int damage;
     private int currentAmmo;
     private float nextAvailableReloadTime = 0;
     private float nextAvailableFireTime = 0;
@@ -77,7 +78,7 @@ public class GunController : MonoBehaviour
         //Generating the Bullet
         GameObject bullet = Instantiate(normalBullet, gunTipIndicator.position, Quaternion.Euler(0, 0, 0));
         bullet.GetComponent<Rigidbody2D>().velocity = (worldPosMouseWithSpread - gunTipIndicator.position).normalized * bulletSpeed;
-
+        bullet.GetComponent<BulletScript>().damage = damage;
 
         //Screenshake
         //gm.screenShake.SmallShake();
