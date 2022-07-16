@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EventFolder" id="{785cbbe9-9fd2-42d8-bcb3-5788e3177640}">
+		<property name="name">
+			<value>Epic</value>
+		</property>
+		<relationship name="folder">
+			<destination>{29e2beaf-63d8-4b12-aad4-98f9741570b4}</destination>
+		</relationship>
+	</object>
+</objects>
