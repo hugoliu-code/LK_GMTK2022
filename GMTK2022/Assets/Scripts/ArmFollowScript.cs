@@ -7,6 +7,14 @@ public class ArmFollowScript : MonoBehaviour
     [SerializeField] PlayerController player;
     private void Update()
     {
+        if (player.isRolling)
+        {
+            GetComponent<SpriteRenderer>().enabled = false;
+        }
+        else
+        {
+            GetComponent<SpriteRenderer>().enabled = true;
+        }
         Vector3 worldPosMouse = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         worldPosMouse.z = 0;
         float angleOfRotation = Mathf.Atan2(worldPosMouse.y - transform.position.y, worldPosMouse.x - transform.position.x) * Mathf.Rad2Deg;

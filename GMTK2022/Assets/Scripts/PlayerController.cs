@@ -25,18 +25,31 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float jumpColliderRadius;
     public bool facingRight; //the mouse is to the right of the player;
     private bool isTouchingGround = false;
-    private bool isRolling = false;
+    public bool isRolling = false;
+    [Space(2)]
     [Header("LayerMasks")]
     [SerializeField] LayerMask groundLayer;
 
     //Animation
-    private Animator anim;
+    [Space(2)]
+    [Header("Animation and Sprites")]
+    [SerializeField] Animator anim;
+    private State state;
+
+    enum State
+    {
+        Run,
+        RunBackwards,
+        Idle,
+        Jump,
+        Fall,
+        Roll
+    }
     #endregion 
     private void Start()
     {
         //Initializing Components
         rb = GetComponent<Rigidbody2D>();
-        anim = GetComponent<Animator>();
     }
     
     private void Update()
@@ -46,6 +59,7 @@ public class PlayerController : MonoBehaviour
         RollMovement();
         VerticalMovement();
         CheckDirection();
+        AnimationController();
     }
     void ConditionsCheck()
     {
@@ -53,7 +67,34 @@ public class PlayerController : MonoBehaviour
         isTouchingGround = Physics2D.OverlapCircle((Vector2)transform.position + jumpColliderBottomOffset, jumpColliderRadius, groundLayer);
     }
 
-
+    void AnimationController()
+    {
+        if (isRolling)
+        {
+            state = State.Roll;
+        }
+        else if(rb.velocity.y > 0.1f)
+        {
+            state = State.Jump;
+        }
+        else if(rb.velocity.y < -0.1f)
+        {
+            state = State.Fall;
+        }
+        else if((rb.velocity.x > 0.1f && facingRight) || (rb.velocity.x < -0.1f && !facingRight))
+        {
+            state = State.Run;
+        } 
+        else if((rb.velocity.x < -0.1f && facingRight) || (rb.velocity.x > 0.1f && !facingRight))
+        {
+            state = State.RunBackwards;
+        }
+        else
+        {
+            state = State.Idle;
+        }
+        anim.SetInteger("State", (int)state);
+    }
 
     void CheckDirection()
     {
@@ -106,7 +147,16 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.S) && Time.time > nextAvailableRollTime && isTouchingGround)
         {
             nextAvailableRollTime = Time.time + rollDelay + rollTime;
-            StartCoroutine(Roll(rollTime, rollSpeed, (int)transform.localScale.x));
+            int direction = (int)transform.localScale.x;
+            if(rb.velocity.x > 0.1f)
+            {
+                direction = 1;
+            }
+            else if(rb.velocity.x<-0.1f)
+            {
+                direction = -1;
+            }
+            StartCoroutine(Roll(rollTime, rollSpeed, direction));
         }
     }
     IEnumerator Roll(float rollTime, float rollSpeed, int direction)

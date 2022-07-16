@@ -6,11 +6,13 @@ public class GunController : MonoBehaviour
 {
     #region Variables
     [Header("Gun Stats")]
+  
     [SerializeField] float bulletSpeed;
     [SerializeField] float fireRate; //delay between shots
     [SerializeField] float bulletSpread;
     [SerializeField] int maxAmmo = 10;
     [SerializeField] float reloadTime; //how long it takes to reload
+    [SerializeField] float shotgunShots = 1; //how many bullets per shot
     private int currentAmmo;
     private float nextAvailableReloadTime = 0;
     private float nextAvailableFireTime = 0;
@@ -18,6 +20,7 @@ public class GunController : MonoBehaviour
     [Header("Object References")]
     [SerializeField] GameObject normalBullet;
     [SerializeField] Transform gunTipIndicator;
+    [SerializeField] PlayerController player;
 
     #endregion
     private void Start()
@@ -38,38 +41,49 @@ public class GunController : MonoBehaviour
          */
         if (Input.GetMouseButton(0))
         {
-            //IF not enough time has passed, return
-            if (Time.time < nextAvailableFireTime || currentAmmo <= 0)
+            if (Time.time < nextAvailableFireTime || currentAmmo <= 0 || player.isRolling)
             {
                 return;
             }
-
-            Vector3 worldPosMouse = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            worldPosMouse.z = 0;
-
-            //Gunshot Sound
-            //FMODUnity.RuntimeManager.PlayOneShot("event:/Characters/Player/Pistol", GetComponent<Transform>().position);
-
-            //Creating New endpoint with spread
-            float spread = Random.Range(-bulletSpread / 2, bulletSpread / 2);
-            Vector3 worldPosMouseWithSpread = worldPosMouse - gunTipIndicator.position; //the relative vector from P2 to P1.
-            worldPosMouseWithSpread = Quaternion.Euler(0, 0, spread) * worldPosMouseWithSpread; //rotatate
-            worldPosMouseWithSpread = gunTipIndicator.position + worldPosMouseWithSpread; //bring back to world space
-
-
-            //Update ammo
-            currentAmmo -= 1;
-            //Generating the Bullet
-            GameObject bullet = Instantiate(normalBullet, gunTipIndicator.position, Quaternion.Euler(0, 0, 0));
-            bullet.GetComponent<Rigidbody2D>().velocity = (worldPosMouseWithSpread - gunTipIndicator.position).normalized * bulletSpeed;
-
-
-            //Screenshake
-            //gm.screenShake.SmallShake();
-
-            //New Last Shot Time
-            nextAvailableFireTime = Time.time + fireRate;
+            for (int a = 0; a < shotgunShots; a++)
+            {
+                if (a == 0)
+                    Shoot();
+                else
+                    Invoke("Shoot", 0.1f);
+            }
         }
+    }
+    void Shoot()
+    {
+        //IF not enough time has passed, return
+
+
+        Vector3 worldPosMouse = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        worldPosMouse.z = 0;
+
+        //Gunshot Sound
+        //FMODUnity.RuntimeManager.PlayOneShot("event:/Characters/Player/Pistol", GetComponent<Transform>().position);
+
+        //Creating New endpoint with spread
+        float spread = Random.Range(-bulletSpread / 2, bulletSpread / 2);
+        Vector3 worldPosMouseWithSpread = worldPosMouse - gunTipIndicator.position; //the relative vector from P2 to P1.
+        worldPosMouseWithSpread = Quaternion.Euler(0, 0, spread) * worldPosMouseWithSpread; //rotatate
+        worldPosMouseWithSpread = gunTipIndicator.position + worldPosMouseWithSpread; //bring back to world space
+
+
+        //Update ammo
+        currentAmmo -= 1;
+        //Generating the Bullet
+        GameObject bullet = Instantiate(normalBullet, gunTipIndicator.position, Quaternion.Euler(0, 0, 0));
+        bullet.GetComponent<Rigidbody2D>().velocity = (worldPosMouseWithSpread - gunTipIndicator.position).normalized * bulletSpeed;
+
+
+        //Screenshake
+        //gm.screenShake.SmallShake();
+
+        //New Last Shot Time
+        nextAvailableFireTime = Time.time + fireRate;
     }
     void ReloadController()
     {
@@ -78,5 +92,6 @@ public class GunController : MonoBehaviour
             currentAmmo = maxAmmo;
         }
     }
+
 }
 
