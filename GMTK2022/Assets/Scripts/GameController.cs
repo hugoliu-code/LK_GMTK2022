@@ -4,6 +4,5 @@ using UnityEngine;
 
 public class GameController : MonoBehaviour
 {
-    public int health;
-
+    public int health = 5;
 }

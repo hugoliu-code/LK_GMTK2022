@@ -5,6 +5,16 @@ using UnityEngine;
 public class ArmFollowScript : MonoBehaviour
 {
     [SerializeField] PlayerController player;
+    [SerializeField] GameObject gunTipIndicator;
+    private GunManager gm;
+    private SpriteRenderer sr;
+    private void Start()
+    {
+        gm = FindObjectOfType<GunManager>();
+        sr = GetComponent<SpriteRenderer>();
+        sr.sprite = gm.currentGun.armArt;
+        gunTipIndicator.transform.localPosition = gm.currentGun.offSet;
+    }
     private void Update()
     {
         if (player.isRolling)

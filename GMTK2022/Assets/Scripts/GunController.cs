@@ -22,11 +22,24 @@ public class GunController : MonoBehaviour
     [SerializeField] GameObject normalBullet;
     [SerializeField] Transform gunTipIndicator;
     [SerializeField] PlayerController player;
-
+    private GunManager gm;
     #endregion
     private void Start()
     {
         currentAmmo = maxAmmo;
+        gm = FindObjectOfType<GunManager>();
+        UpdateGun();
+    }
+    private void UpdateGun()
+    {
+        GunType current= gm.currentGun;
+        bulletSpeed = current.bulletSpeed;
+        fireRate = current.fireRate;
+        bulletSpread = current.bulletSpread;
+        maxAmmo = current.maxAmmo;
+        reloadTime = current.reloadTime;
+        shotgunShots = current.shotgunShots;
+        damage = current.damage;
     }
     private void Update()
     {
