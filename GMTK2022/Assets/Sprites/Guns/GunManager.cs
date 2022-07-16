@@ -12,6 +12,16 @@ public class GunManager : MonoBehaviour
     public GunType[] rareGuns;
     public GunType[] epicGuns;
     public GunType[] legendaryGuns;
+    void Awake()
+    {
+        GameObject[] objs = GameObject.FindGameObjectsWithTag("GunManager");
 
+        if (objs.Length > 1)
+        {
+            Destroy(this.gameObject);
+        }
+
+        DontDestroyOnLoad(this.gameObject);
+    }
 
 }
