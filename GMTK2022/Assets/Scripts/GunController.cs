@@ -72,9 +72,14 @@ public class GunController : MonoBehaviour
             for (int a = 0; a < shotgunShots; a++)
             {
                 if (a == 0)
+                {
+                    currentAmmo -= 1;
                     Shoot();
+                }
                 else
-                    Invoke("Shoot", 0.1f);
+                {
+                    Shoot();
+                }
             }
         }
     }
@@ -97,7 +102,7 @@ public class GunController : MonoBehaviour
 
 
         //Update ammo
-        currentAmmo -= 1;
+        
         //Generating the Bullet
         GameObject bullet = Instantiate(normalBullet, gunTipIndicator.position, Quaternion.Euler(0, 0, 0));
         bullet.GetComponent<Rigidbody2D>().velocity = (worldPosMouseWithSpread - gunTipIndicator.position).normalized * bulletSpeed;

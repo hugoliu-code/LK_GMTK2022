@@ -10,19 +10,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6b839d98e57c99d48a0d4a0678aa8d45, type: 3}
-  m_Name: Vector
+  m_Name: m107
   m_EditorClassIdentifier: 
-  name: Kriss Vector
-  description: Blaze through enemies with 1600 RPM and lightning quick reloads
-  cardArt: {fileID: 21300000, guid: a99ee9a55d6f3b746a14b4524386e6fc, type: 3}
-  armArt: {fileID: 21300000, guid: 405962dd3b6360243a37e6e76767d012, type: 3}
-  bulletSpeed: 80
-  fireRate: 0.02
-  bulletSpread: 5
-  maxAmmo: 30
-  reloadTime: 2
+  name: m107
+  description: one-tap machine \n no enemy stands before its mighty lead
+  cardArt: {fileID: 21300000, guid: 9689d045cab25f5429c366cae41ae8e5, type: 3}
+  armArt: {fileID: 21300000, guid: 0e4d7fc2ff8969d4ebe2cc22854131d1, type: 3}
+  bulletSpeed: 170
+  fireRate: 1.2
+  bulletSpread: 1
+  maxAmmo: 6
+  reloadTime: 4
   shotgunShots: 1
-  damage: 10
-  rarity: 3
-  offSet: {x: 1, y: -0.03}
+  damage: 400
+  rarity: 4
+  offSet: {x: 0, y: 0}
   audioPath: 

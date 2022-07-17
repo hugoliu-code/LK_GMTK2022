@@ -10,19 +10,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6b839d98e57c99d48a0d4a0678aa8d45, type: 3}
-  m_Name: Vector
+  m_Name: M9
   m_EditorClassIdentifier: 
-  name: Kriss Vector
-  description: Blaze through enemies with 1600 RPM and lightning quick reloads
-  cardArt: {fileID: 21300000, guid: a99ee9a55d6f3b746a14b4524386e6fc, type: 3}
-  armArt: {fileID: 21300000, guid: 405962dd3b6360243a37e6e76767d012, type: 3}
-  bulletSpeed: 80
-  fireRate: 0.02
-  bulletSpread: 5
-  maxAmmo: 30
-  reloadTime: 2
+  name: M9
+  description: Standard Issue pistol \n Try not to die
+  cardArt: {fileID: 21300000, guid: 1ff8e525a27f8ff4ab00677829684522, type: 3}
+  armArt: {fileID: 21300000, guid: 57836212d1c13104c827499c97e2bfd5, type: 3}
+  bulletSpeed: 90
+  fireRate: 0.5
+  bulletSpread: 15
+  maxAmmo: 18
+  reloadTime: 3
   shotgunShots: 1
-  damage: 10
-  rarity: 3
-  offSet: {x: 1, y: -0.03}
+  damage: 20
+  rarity: 0
+  offSet: {x: 0, y: 0}
   audioPath: 
