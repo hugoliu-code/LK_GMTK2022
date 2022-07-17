@@ -377,6 +377,32 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 528
+--- !u!114 &-7061609410004648860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Level/Level Type
+  m_EditorClassIdentifier: 
+  Name: Level Type
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 4269970450
+    data2: 3092132731
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Level
+  - Misc
+  Exists: 1
 --- !u!114 &-7044977391391624233
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -668,6 +694,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 871
+--- !u!114 &-5349562319917731580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Level/Auto Stop
+  m_EditorClassIdentifier: 
+  Name: Auto Stop
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1868221784
+    data2: 3837459819
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-5335951309471341331
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -773,8 +823,8 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: -3448562901576339276}
-  - {fileID: 464462645961670388}
+  - {fileID: -5349562319917731580}
+  - {fileID: -7061609410004648860}
   MinDistance: 1
   MaxDistance: 20
   Length: 167948
@@ -2086,7 +2136,7 @@ MonoBehaviour:
   - {fileID: 5037726346682767913}
   StringsBanks:
   - {fileID: 3856130875643688670}
-  cacheTime: 637936496755017515
+  cacheTime: 637936609253416337
   cacheVersion: 131591
 --- !u!114 &68633115725946912
 MonoBehaviour:
@@ -2968,7 +3018,7 @@ MonoBehaviour:
   Path: ../FMODGMTK2022/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637936496755017515
+  lastModified: 637936609253416337
   FileSizes:
   - Name: Desktop
     Value: 3116
@@ -3225,7 +3275,7 @@ MonoBehaviour:
   Path: ../FMODGMTK2022/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637936496754967499
+  lastModified: 637936609253326583
   FileSizes:
   - Name: Desktop
     Value: 5520832
