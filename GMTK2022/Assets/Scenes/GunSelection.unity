@@ -471,7 +471,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Good Choice. You have been given an extra dice.
+  m_text: Good Choice. You have been given an extra die.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 39afc9550caa7484ea53c41d83fdf972, type: 2}
   m_sharedMaterial: {fileID: 1352665386320947067, guid: 39afc9550caa7484ea53c41d83fdf972, type: 2}

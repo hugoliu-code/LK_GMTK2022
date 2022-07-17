@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/GunSelection.unity
     guid: 0c27c85a6f2dfbe46bb045a8086d3df2
   - enabled: 1
+    path: Assets/Scenes/DeathScreen.unity
+    guid: 1c5dee5fe6b562f40ba855328a5afae4
+  - enabled: 1
     path: Assets/Scenes/Level1.unity
     guid: e93588b92d6792446a2572c58de07349
   - enabled: 1

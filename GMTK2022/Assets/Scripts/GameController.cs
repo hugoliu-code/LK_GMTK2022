@@ -7,6 +7,8 @@ public class GameController : MonoBehaviour
     public int health = 5;
     public int currentLevel = 1;
     public GameController instance;
+    public bool fin = false;
+
     void Awake()
     {
         if(instance == null)
@@ -41,5 +43,14 @@ public class GameController : MonoBehaviour
     {
         health = 2;
         currentLevel = 1;
+        fin = false;
+    }
+    private void Update()
+    {
+        if(health <= 0 && fin == false)
+        {
+            fin = true;
+            FindObjectOfType<LevelTraversal>().LevelNav("DeathScreen");
+        }
     }
 }
