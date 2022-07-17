@@ -12,6 +12,7 @@ TagManager:
   - 'Material: Wood'
   - ShootEnemy
   - StrongEnemy
+  - Spikes
   layers:
   - Default
   - TransparentFX
@@ -25,7 +26,7 @@ TagManager:
   - Player
   - PlayerHitbox
   - Platform
-  - 
+  - Spikes
   - 
   - 
   - 
