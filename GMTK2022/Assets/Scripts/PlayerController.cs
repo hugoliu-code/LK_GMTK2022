@@ -25,11 +25,12 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float jumpColliderRadius;
     public bool facingRight; //the mouse is to the right of the player;
     private bool isTouchingGround = false;
+    private bool isTouchingPlatform = false;
     public bool isRolling = false;
     [Space(2)]
     [Header("LayerMasks")]
     [SerializeField] LayerMask groundLayer;
-
+    [SerializeField] LayerMask platform;
     //Animation
     [Space(2)]
     [Header("Animation and Sprites")]
@@ -88,6 +89,7 @@ public class PlayerController : MonoBehaviour
     {
         //Checks Conditions regarding a state a player is in relation to its actions and the environment around it.
         isTouchingGround = Physics2D.OverlapCircle((Vector2)transform.position + jumpColliderBottomOffset, jumpColliderRadius, groundLayer);
+        isTouchingPlatform = Physics2D.OverlapCircle((Vector2)transform.position + jumpColliderBottomOffset, jumpColliderRadius, platform);
     }
 
     void AnimationController()
@@ -199,7 +201,7 @@ public class PlayerController : MonoBehaviour
     #region Vertical Movement
     void VerticalMovement() //Note to self: might remove the fancy hold to jump higher thing
     {
-        if (isTouchingGround)
+        if (isTouchingGround || isTouchingPlatform)
         {
             Jump();
         }
