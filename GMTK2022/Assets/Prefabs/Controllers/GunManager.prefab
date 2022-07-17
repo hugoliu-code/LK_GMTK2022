@@ -46,7 +46,19 @@ MonoBehaviour:
   currentGun: {fileID: 11400000, guid: 881c54214dc930d4da8adec219d44c35, type: 2}
   commonGuns:
   - {fileID: 11400000, guid: 9ad689ae441e6c1498167d24226eb9ec, type: 2}
-  rareGuns: []
+  - {fileID: 11400000, guid: 49034f130981aae4482226c157b7a055, type: 2}
+  - {fileID: 11400000, guid: bc333f62b75555b4086a906e74292021, type: 2}
+  uncommonGuns:
+  - {fileID: 11400000, guid: e845598fe226c434fac7aa78c8797a13, type: 2}
+  - {fileID: 11400000, guid: cd63f0728f83ebd4594926bae0164c6d, type: 2}
+  - {fileID: 11400000, guid: 3dde33a417e32b248a68c257835e1f6f, type: 2}
+  rareGuns:
+  - {fileID: 11400000, guid: 9aa09b60724112541992bca96c69d9c5, type: 2}
+  - {fileID: 11400000, guid: 6ccac0bd73cb8844aaf771125573a07f, type: 2}
+  - {fileID: 11400000, guid: 3784e4d336ffab24b8b6d7b3f66872d5, type: 2}
   epicGuns:
   - {fileID: 11400000, guid: 881c54214dc930d4da8adec219d44c35, type: 2}
-  legendaryGuns: []
+  - {fileID: 11400000, guid: 20bbd08bbe7b8e045a33eabb7d42bf76, type: 2}
+  legendaryGuns:
+  - {fileID: 11400000, guid: a3f95082302aee54b9a954db925c4593, type: 2}
+  - {fileID: 11400000, guid: 7c44380242de30d41a37a0d5507c063b, type: 2}

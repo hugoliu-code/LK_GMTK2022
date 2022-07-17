@@ -9,6 +9,7 @@ public class GunManager : MonoBehaviour
     //at each selection level, the randomly generated cards will pull from this Gunmanager, that holds lists of all rarities
     public GunType currentGun;
     public GunType[] commonGuns;
+    public GunType[] uncommonGuns;
     public GunType[] rareGuns;
     public GunType[] epicGuns;
     public GunType[] legendaryGuns;
