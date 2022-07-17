@@ -17,12 +17,13 @@ MonoBehaviour:
   cardArt: {fileID: 21300000, guid: a99ee9a55d6f3b746a14b4524386e6fc, type: 3}
   armArt: {fileID: 21300000, guid: 405962dd3b6360243a37e6e76767d012, type: 3}
   bulletSpeed: 80
-  fireRate: 0.02
+  fireRate: 0.03
   bulletSpread: 5
   maxAmmo: 30
-  reloadTime: 2
+  reloadTime: 1
   shotgunShots: 1
-  damage: 10
+  damage: 6
   rarity: 3
   offSet: {x: 1, y: -0.03}
-  audioPath: 
+  audioPathReload: event:/Weapons/Epic/Vector/Vector_Reload
+  audioPathShoot: event:/Weapons/Epic/Vector/Vector

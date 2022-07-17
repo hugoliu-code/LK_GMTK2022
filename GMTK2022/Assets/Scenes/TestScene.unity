@@ -10195,6 +10195,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1632539234104763058, guid: d38deb2e540d65849969cd102e378f6f, type: 3}
+      propertyPath: currentGun
+      value: 
+      objectReference: {fileID: 11400000, guid: 9aa09b60724112541992bca96c69d9c5, type: 2}
     - target: {fileID: 1632539234104763059, guid: d38deb2e540d65849969cd102e378f6f, type: 3}
       propertyPath: m_RootOrder
       value: 6

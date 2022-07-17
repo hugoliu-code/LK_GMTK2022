@@ -16,13 +16,14 @@ MonoBehaviour:
   description: .50 Cal hand cannon \n watch your wrists!
   cardArt: {fileID: 21300000, guid: 9eb690f71aeff4746b269629cf2ee596, type: 3}
   armArt: {fileID: 21300000, guid: 5770c37db6331a845abd765a5d81bd96, type: 3}
-  bulletSpeed: 120
+  bulletSpeed: 75
   fireRate: 1
   bulletSpread: 30
   maxAmmo: 8
-  reloadTime: 5
+  reloadTime: 1.4
   shotgunShots: 1
-  damage: 55
+  damage: 45
   rarity: 2
   offSet: {x: 1, y: 0.1}
-  audioPath: 
+  audioPathReload: event:/Weapons/Rare/Deagle/Deagle_Reload
+  audioPathShoot: event:/Weapons/Rare/Deagle/Deagle

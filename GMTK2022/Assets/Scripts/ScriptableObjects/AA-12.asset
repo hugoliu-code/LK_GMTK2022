@@ -16,13 +16,14 @@ MonoBehaviour:
   description: Shotgun with a barrel drum? \n Sign me up!
   cardArt: {fileID: 21300000, guid: d96a136e3489dff408b6fea2becbc103, type: 3}
   armArt: {fileID: 21300000, guid: db855b55ace5801429237a62572e3c0f, type: 3}
-  bulletSpeed: 70
-  fireRate: 0.05
-  bulletSpread: 80
+  bulletSpeed: 69
+  fireRate: 0.27
+  bulletSpread: 100
   maxAmmo: 8
-  reloadTime: 4
+  reloadTime: 2
   shotgunShots: 8
-  damage: 15
+  damage: 4
   rarity: 2
   offSet: {x: 1.1, y: 0.1}
-  audioPath: 
+  audioPathReload: event:/Weapons/Rare/AA12/AA12_Reload
+  audioPathShoot: event:/Weapons/Rare/AA12/AA12

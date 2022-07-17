@@ -16,13 +16,14 @@ MonoBehaviour:
   description: A powerful rifle, if you can control its spread...
   cardArt: {fileID: 0}
   armArt: {fileID: 0}
-  bulletSpeed: 100
-  fireRate: 0.4
+  bulletSpeed: 80
+  fireRate: 0.07
   bulletSpread: 35
-  maxAmmo: 20
-  reloadTime: 4
+  maxAmmo: 30
+  reloadTime: 1.2
   shotgunShots: 1
-  damage: 40
+  damage: 15
   rarity: 2
   offSet: {x: 1.5, y: 0.07}
-  audioPath: 
+  audioPathReload: event:/Weapons/Rare/AK47/AK47_Reload
+  audioPathShoot: event:/Weapons/Rare/AK47/AK47

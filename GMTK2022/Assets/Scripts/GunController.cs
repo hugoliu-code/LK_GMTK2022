@@ -58,11 +58,12 @@ public class GunController : MonoBehaviour
          */
         if (Input.GetMouseButton(0))
         {
-            if(currentAmmo <= 0 && !isReloading)
+            if(currentAmmo <= 0 && !isReloading && currentAmmo != maxAmmo)
             {
                 onReload?.Invoke(this, EventArgs.Empty);
                 isReloading = true;
                 finishReloadTime = Time.time + reloadTime;
+                FMODUnity.RuntimeManager.PlayOneShot(gm.currentGun.audioPathReload, GetComponent<Transform>().position);
                 Invoke("Reload", reloadTime);
             }
             if (Time.time < nextAvailableFireTime || currentAmmo <= 0 || player.isRolling || isReloading)
@@ -74,7 +75,7 @@ public class GunController : MonoBehaviour
                 if (a == 0)
                 {
                     currentAmmo -= 1;
-                    //PLAY SHOOT SOUND HERE
+                    FMODUnity.RuntimeManager.PlayOneShot(gm.currentGun.audioPathShoot, GetComponent<Transform>().position);
                     Shoot();
                 }
                 else
@@ -125,7 +126,7 @@ public class GunController : MonoBehaviour
             isReloading = true;
             finishReloadTime = Time.time + reloadTime;
 
-            //PUT RELOAD SOUND HERE
+            FMODUnity.RuntimeManager.PlayOneShot(gm.currentGun.audioPathReload, GetComponent<Transform>().position);
             Invoke("Reload", reloadTime);
         }
     }

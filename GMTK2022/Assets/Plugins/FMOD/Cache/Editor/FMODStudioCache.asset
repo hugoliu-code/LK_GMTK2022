@@ -27,6 +27,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1520
+--- !u!114 &-8796739139701551310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Weapons/Rare/AK47/AK47_Reload
+  m_EditorClassIdentifier: 
+  Path: event:/Weapons/Rare/AK47/AK47_Reload
+  Guid:
+    Data1: 48851286
+    Data2: 1268328016
+    Data3: 1163289479
+    Data4: -1294257448
+  Banks:
+  - {fileID: 4450454076775821849}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1500
 --- !u!114 &-8757861842642063354
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -81,6 +108,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 600
+--- !u!114 &-7963504639050634386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Coin Drop
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Coin Drop
+  Guid:
+    Data1: 635911897
+    Data2: 1239849862
+    Data3: -435295608
+    Data4: -492158802
+  Banks:
+  - {fileID: 4450454076775821849}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1120
 --- !u!114 &-7733732825489046595
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -135,6 +189,60 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1500
+--- !u!114 &-7450308092827012469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Weapons/Commons/Glock/Glock_Reload
+  m_EditorClassIdentifier: 
+  Path: event:/Weapons/Commons/Glock/Glock_Reload
+  Guid:
+    Data1: 408344257
+    Data2: 1219538988
+    Data3: -1037838713
+    Data4: 1414598294
+  Banks:
+  - {fileID: 4450454076775821849}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 900
+--- !u!114 &-7289118663240497126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/Roll
+  m_EditorClassIdentifier: 
+  Path: event:/Player/Roll
+  Guid:
+    Data1: 1598030326
+    Data2: 1151756991
+    Data3: -152601433
+    Data4: 1819715496
+  Banks:
+  - {fileID: 4450454076775821849}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 400
 --- !u!114 &-7254624477291671884
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -188,6 +296,87 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 528
+--- !u!114 &-6753820363216044546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Card Draw
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Card Draw
+  Guid:
+    Data1: -1218584807
+    Data2: 1116900853
+    Data3: 272746430
+    Data4: 2031902960
+  Banks:
+  - {fileID: 4450454076775821849}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1626
+--- !u!114 &-6461882248342394946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Weapons/PistolCock
+  m_EditorClassIdentifier: 
+  Path: event:/Weapons/PistolCock
+  Guid:
+    Data1: 17646798
+    Data2: 1235790474
+    Data3: 1751623081
+    Data4: 2014929608
+  Banks:
+  - {fileID: 4450454076775821849}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 470
+--- !u!114 &-6441473825468284688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Card Deal
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Card Deal
+  Guid:
+    Data1: -469685519
+    Data2: 1272687198
+    Data3: 580829887
+    Data4: 1990500594
+  Banks:
+  - {fileID: 4450454076775821849}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 550
 --- !u!114 &-6427461770021962204
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -289,6 +478,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 871
+--- !u!114 &-5249468337823248606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Weapons/Rare/AK47/AK47
+  m_EditorClassIdentifier: 
+  Path: event:/Weapons/Rare/AK47/AK47
+  Guid:
+    Data1: -161847527
+    Data2: 1215186329
+    Data3: 1635337895
+    Data4: 202981422
+  Banks:
+  - {fileID: 4450454076775821849}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 560
 --- !u!114 &-5109039631620306433
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -343,6 +559,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1580
+--- !u!114 &-4801063993203246358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Weapons/Rare/Deagle/Deagle_Reload
+  m_EditorClassIdentifier: 
+  Path: event:/Weapons/Rare/Deagle/Deagle_Reload
+  Guid:
+    Data1: -1125890567
+    Data2: 1304535777
+    Data3: 1845987724
+    Data4: -1102082762
+  Banks:
+  - {fileID: 4450454076775821849}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1480
 --- !u!114 &-4698769944464227440
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -397,6 +640,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1857
+--- !u!114 &-3735128908273155354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Weapons/ShotgunCock
+  m_EditorClassIdentifier: 
+  Path: event:/Weapons/ShotgunCock
+  Guid:
+    Data1: 697730793
+    Data2: 1091725933
+    Data3: 1959457171
+    Data4: 95888366
+  Banks:
+  - {fileID: 4450454076775821849}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 700
 --- !u!114 &-3662628181003951261
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -452,6 +722,87 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 550
+--- !u!114 &-3317874643085335159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/OST/Level
+  m_EditorClassIdentifier: 
+  Path: event:/OST/Level
+  Guid:
+    Data1: 1707471702
+    Data2: 1169254979
+    Data3: -1302877045
+    Data4: -1480864023
+  Banks:
+  - {fileID: 4450454076775821849}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 35200
+--- !u!114 &-3001197450164819530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Enemy/Poker Chip/Attack
+  m_EditorClassIdentifier: 
+  Path: event:/Enemy/Poker Chip/Attack
+  Guid:
+    Data1: 1374333791
+    Data2: 1212585009
+    Data3: 404637352
+    Data4: 1631008466
+  Banks:
+  - {fileID: 4450454076775821849}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1320
+--- !u!114 &-2810856129414341421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Weapons/Commons/M9/M9_Reload
+  m_EditorClassIdentifier: 
+  Path: event:/Weapons/Commons/M9/M9_Reload
+  Guid:
+    Data1: 900519874
+    Data2: 1340782533
+    Data3: -2045696101
+    Data4: -1084202460
+  Banks:
+  - {fileID: 4450454076775821849}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 871
 --- !u!114 &-2724353240727009946
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -506,6 +857,168 @@ MonoBehaviour:
   - Marble
   - Wood
   Exists: 1
+--- !u!114 &-2476873434605105927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/PHurt
+  m_EditorClassIdentifier: 
+  Path: event:/Player/PHurt
+  Guid:
+    Data1: -1300766327
+    Data2: 1109202453
+    Data3: -519400525
+    Data4: -1978933049
+  Banks:
+  - {fileID: 4450454076775821849}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 100
+--- !u!114 &-2442835820368797266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Land/Footsteps
+  m_EditorClassIdentifier: 
+  Name: Footsteps
+  StudioPath: 
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 2978887632
+    data2: 3952559683
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Carpet
+  - Marble
+  - Wood
+  Exists: 1
+--- !u!114 &-2353577322616702837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Weapons/Uncommon/AR15/AR15
+  m_EditorClassIdentifier: 
+  Path: event:/Weapons/Uncommon/AR15/AR15
+  Guid:
+    Data1: -656375951
+    Data2: 1110107008
+    Data3: -1036681851
+    Data4: 34701310
+  Banks:
+  - {fileID: 4450454076775821849}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 800
+--- !u!114 &-2248026531589469578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Weapons/Rare/AA12/AA12
+  m_EditorClassIdentifier: 
+  Path: event:/Weapons/Rare/AA12/AA12
+  Guid:
+    Data1: 872936655
+    Data2: 1102449929
+    Data3: -720347992
+    Data4: 1308891230
+  Banks:
+  - {fileID: 4450454076775821849}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 600
+--- !u!114 &-2246200484983713280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/Back
+  m_EditorClassIdentifier: 
+  Path: event:/UI/Back
+  Guid:
+    Data1: -2088038189
+    Data2: 1075877708
+    Data3: -2014418783
+    Data4: 232361045
+  Banks:
+  - {fileID: 4450454076775821849}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 160
+--- !u!114 &-2102037638172435998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Weapons/Epic/Vector/Vector_Reload
+  m_EditorClassIdentifier: 
+  Path: event:/Weapons/Epic/Vector/Vector_Reload
+  Guid:
+    Data1: -647510720
+    Data2: 1219959703
+    Data3: -368614750
+    Data4: 1904026656
+  Banks:
+  - {fileID: 4450454076775821849}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1000
 --- !u!114 &-1986300570228040939
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -560,6 +1073,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1120
+--- !u!114 &-1741818614970633906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/PDeath
+  m_EditorClassIdentifier: 
+  Path: event:/Player/PDeath
+  Guid:
+    Data1: -2038281571
+    Data2: 1254342228
+    Data3: 177964935
+    Data4: 593003540
+  Banks:
+  - {fileID: 4450454076775821849}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2000
 --- !u!114 &-1715199240589387859
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -587,6 +1127,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-1601158189467543497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Weapons/Uncommon/R700/R700
+  m_EditorClassIdentifier: 
+  Path: event:/Weapons/Uncommon/R700/R700
+  Guid:
+    Data1: 442821353
+    Data2: 1098948827
+    Data3: 1708771214
+    Data4: 734834796
+  Banks:
+  - {fileID: 4450454076775821849}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1410
 --- !u!114 &-1037530287103823506
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -641,6 +1208,87 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 100
+--- !u!114 &-877916177458553106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/OST/Intro
+  m_EditorClassIdentifier: 
+  Path: event:/OST/Intro
+  Guid:
+    Data1: -985048160
+    Data2: 1219198279
+    Data3: -712006725
+    Data4: -146889579
+  Banks:
+  - {fileID: 4450454076775821849}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 126048
+--- !u!114 &-838265323216010539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Weapons/Commons/Sawed Off/Sawed Off
+  m_EditorClassIdentifier: 
+  Path: event:/Weapons/Commons/Sawed Off/Sawed Off
+  Guid:
+    Data1: -1464387146
+    Data2: 1249890904
+    Data3: -1912843099
+    Data4: 1112505588
+  Banks:
+  - {fileID: 4450454076775821849}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 500
+--- !u!114 &-825574270767958204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Weapons/Legendary/M82/M82_Reload
+  m_EditorClassIdentifier: 
+  Path: event:/Weapons/Legendary/M82/M82_Reload
+  Guid:
+    Data1: -2028447166
+    Data2: 1153344021
+    Data3: -1102230863
+    Data4: 1272127765
+  Banks:
+  - {fileID: 4450454076775821849}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3340
 --- !u!114 &-474676507840215079
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -668,6 +1316,60 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1410
+--- !u!114 &-388879259173748932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Weapons/Rare/AA12/AA12_Reload
+  m_EditorClassIdentifier: 
+  Path: event:/Weapons/Rare/AA12/AA12_Reload
+  Guid:
+    Data1: -2011187676
+    Data2: 1280723658
+    Data3: -1120255300
+    Data4: -1019038683
+  Banks:
+  - {fileID: 4450454076775821849}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2200
+--- !u!114 &-41457582642258702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/Confirm
+  m_EditorClassIdentifier: 
+  Path: event:/UI/Confirm
+  Guid:
+    Data1: -1463539505
+    Data2: 1279755717
+    Data3: 1638654141
+    Data4: -2023047097
+  Banks:
+  - {fileID: 4450454076775821849}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1580
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -681,61 +1383,88 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: -6427461770021962204}
-  - {fileID: 6414900639301800020}
+  - {fileID: 8435112430204173398}
+  - {fileID: 4450454076775821849}
   EditorEvents:
-  - {fileID: 7774867467026158161}
-  - {fileID: 1542835798992964480}
-  - {fileID: -1037530287103823506}
-  - {fileID: 7928429502643960739}
-  - {fileID: 8566911150885226849}
-  - {fileID: 9131999106666974608}
-  - {fileID: 5123197539807628369}
-  - {fileID: -8757861842642063354}
-  - {fileID: 8790199541468877743}
-  - {fileID: -7220717596288334885}
-  - {fileID: -4698769944464227440}
-  - {fileID: -1715199240589387859}
-  - {fileID: 8200280344592860382}
-  - {fileID: 1343749003808369615}
-  - {fileID: 4568514963765816680}
-  - {fileID: 8175823687594552161}
-  - {fileID: -1986300570228040939}
-  - {fileID: 6134273578402042131}
-  - {fileID: -8542369304600717560}
-  - {fileID: 458134671353135248}
-  - {fileID: -951717749995150423}
-  - {fileID: 8891740022695075868}
-  - {fileID: 2224544969989139291}
-  - {fileID: 2063251827240329763}
-  - {fileID: -6282490696797051355}
-  - {fileID: -7567984888709127815}
-  - {fileID: -2724353240727009946}
-  - {fileID: 3801424648745026680}
-  - {fileID: -8832086366645366847}
-  - {fileID: -5659722791038574525}
-  - {fileID: -5109039631620306433}
-  - {fileID: 4565113410986837014}
-  - {fileID: -4922867211599894661}
-  - {fileID: 1051896375256952833}
-  - {fileID: -7733732825489046595}
-  - {fileID: -1953743688738003184}
-  - {fileID: 4998206642355773995}
-  - {fileID: 3102898430985136156}
-  - {fileID: -474676507840215079}
-  - {fileID: 6381033852250812225}
-  - {fileID: -5664970897588047489}
-  - {fileID: -3662628181003951261}
-  - {fileID: -3567439346223449952}
-  - {fileID: 2719859157851596862}
-  - {fileID: -4422030103807215269}
+  - {fileID: 6878349652268596267}
+  - {fileID: -5249468337823248606}
+  - {fileID: -6753820363216044546}
+  - {fileID: 5511308386517904157}
+  - {fileID: -388879259173748932}
+  - {fileID: 4871500120238173832}
+  - {fileID: 4082909301367303967}
+  - {fileID: 1634970192428871897}
+  - {fileID: -2102037638172435998}
+  - {fileID: -825574270767958204}
+  - {fileID: 2237357168530288831}
+  - {fileID: -8796739139701551310}
+  - {fileID: -3317874643085335159}
+  - {fileID: -3001197450164819530}
+  - {fileID: 7682749380078714976}
+  - {fileID: 2136240440469692487}
+  - {fileID: -2353577322616702837}
+  - {fileID: 5216480350633172383}
+  - {fileID: 6624340818280205745}
+  - {fileID: 5511668594775860634}
+  - {fileID: 8267607477175691237}
+  - {fileID: -2476873434605105927}
+  - {fileID: -1741818614970633906}
+  - {fileID: 2099736792823472307}
+  - {fileID: 941360350957532357}
+  - {fileID: -877916177458553106}
+  - {fileID: 2677177061843911325}
+  - {fileID: -838265323216010539}
+  - {fileID: -7450308092827012469}
+  - {fileID: -2810856129414341421}
+  - {fileID: 68633115725946912}
+  - {fileID: -6461882248342394946}
+  - {fileID: -41457582642258702}
+  - {fileID: -2248026531589469578}
+  - {fileID: -2246200484983713280}
+  - {fileID: -7963504639050634386}
+  - {fileID: 6765660101175489160}
+  - {fileID: -3735128908273155354}
+  - {fileID: -1601158189467543497}
+  - {fileID: 6687822379405305623}
+  - {fileID: 777210553597974826}
+  - {fileID: 1855405471138966486}
+  - {fileID: -6441473825468284688}
+  - {fileID: -7289118663240497126}
+  - {fileID: -4801063993203246358}
   EditorParameters: []
   MasterBanks:
-  - {fileID: 6414900639301800020}
+  - {fileID: 4450454076775821849}
   StringsBanks:
-  - {fileID: -6427461770021962204}
-  cacheTime: 637936080407607373
+  - {fileID: 8435112430204173398}
+  cacheTime: 637936050565378765
   cacheVersion: 131591
+--- !u!114 &68633115725946912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Weapons/Uncommon/R700/R700_Reload
+  m_EditorClassIdentifier: 
+  Path: event:/Weapons/Uncommon/R700/R700_Reload
+  Guid:
+    Data1: 177649866
+    Data2: 1253632110
+    Data3: -777365616
+    Data4: -973596116
+  Banks:
+  - {fileID: 4450454076775821849}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2100
 --- !u!114 &458134671353135248
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -763,6 +1492,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 73
+--- !u!114 &777210553597974826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Weapons/Uncommon/R870/R870
+  m_EditorClassIdentifier: 
+  Path: event:/Weapons/Uncommon/R870/R870
+  Guid:
+    Data1: 1022705388
+    Data2: 1326868111
+    Data3: 1710711210
+    Data4: -1313315252
+  Banks:
+  - {fileID: 4450454076775821849}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 500
 --- !u!114 &851613938469951648
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -790,6 +1546,33 @@ MonoBehaviour:
   - Marble
   - Wood
   Exists: 1
+--- !u!114 &941360350957532357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Weapons/Epic/Vector/Vector
+  m_EditorClassIdentifier: 
+  Path: event:/Weapons/Epic/Vector/Vector
+  Guid:
+    Data1: -2076952416
+    Data2: 1228944520
+    Data3: -574008697
+    Data4: 283026603
+  Banks:
+  - {fileID: 4450454076775821849}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 900
 --- !u!114 &1051896375256952833
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -871,6 +1654,62 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 2000
+--- !u!114 &1634970192428871897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/Land
+  m_EditorClassIdentifier: 
+  Path: event:/Player/Land
+  Guid:
+    Data1: 579172921
+    Data2: 1193607693
+    Data3: 64608395
+    Data4: -1195319534
+  Banks:
+  - {fileID: 4450454076775821849}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -2442835820368797266}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &1855405471138966486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/Jump
+  m_EditorClassIdentifier: 
+  Path: event:/Player/Jump
+  Guid:
+    Data1: 564502509
+    Data2: 1283779124
+    Data3: -651317366
+    Data4: 1159163479
+  Banks:
+  - {fileID: 4450454076775821849}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 2504866943677598553}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &2063251827240329763
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -898,6 +1737,60 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1763
+--- !u!114 &2099736792823472307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Weapons/Commons/Sawed Off/Sawed Off_Reload
+  m_EditorClassIdentifier: 
+  Path: event:/Weapons/Commons/Sawed Off/Sawed Off_Reload
+  Guid:
+    Data1: 1917728159
+    Data2: 1283946489
+    Data3: -67066470
+    Data4: -1696281083
+  Banks:
+  - {fileID: 4450454076775821849}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1600
+--- !u!114 &2136240440469692487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Weapons/Rare/Deagle/Deagle
+  m_EditorClassIdentifier: 
+  Path: event:/Weapons/Rare/Deagle/Deagle
+  Guid:
+    Data1: 1384006767
+    Data2: 1199820680
+    Data3: -1500434530
+    Data4: 1410254126
+  Banks:
+  - {fileID: 4450454076775821849}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1290
 --- !u!114 &2224544969989139291
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -925,6 +1818,87 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1600
+--- !u!114 &2237357168530288831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Weapons/Epic/Spas 12/Spas 12_Reload
+  m_EditorClassIdentifier: 
+  Path: event:/Weapons/Epic/Spas 12/Spas 12_Reload
+  Guid:
+    Data1: -1396090544
+    Data2: 1231708194
+    Data3: -1845468740
+    Data4: 906242437
+  Banks:
+  - {fileID: 4450454076775821849}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 528
+--- !u!114 &2504866943677598553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Jump/Footsteps
+  m_EditorClassIdentifier: 
+  Name: Footsteps
+  StudioPath: 
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 2978887632
+    data2: 3952559683
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Carpet
+  - Marble
+  - Wood
+  Exists: 1
+--- !u!114 &2677177061843911325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Weapons/Commons/Glock/Glock
+  m_EditorClassIdentifier: 
+  Path: event:/Weapons/Commons/Glock/Glock
+  Guid:
+    Data1: -1575627345
+    Data2: 1099128786
+    Data3: 209610149
+    Data4: 305270288
+  Banks:
+  - {fileID: 4450454076775821849}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1500
 --- !u!114 &2719859157851596862
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -979,6 +1953,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 700
+--- !u!114 &3582586230423363746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Run/Footsteps
+  m_EditorClassIdentifier: 
+  Name: Footsteps
+  StudioPath: 
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 2978887632
+    data2: 3952559683
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Carpet
+  - Marble
+  - Wood
+  Exists: 1
 --- !u!114 &3801424648745026680
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1006,6 +2007,54 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1600
+--- !u!114 &4082909301367303967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/Run
+  m_EditorClassIdentifier: 
+  Path: event:/Player/Run
+  Guid:
+    Data1: 666989366
+    Data2: 1244909015
+    Data3: 1458717061
+    Data4: 581209205
+  Banks:
+  - {fileID: 4450454076775821849}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 3582586230423363746}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &4450454076775821849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMODGMTK2022/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 637936050565338749
+  FileSizes:
+  - Name: Desktop
+    Value: 4924352
+  Exists: 1
 --- !u!114 &4565113410986837014
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1060,6 +2109,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1290
+--- !u!114 &4871500120238173832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Weapons/Uncommon/AR15/AR15_Reload
+  m_EditorClassIdentifier: 
+  Path: event:/Weapons/Uncommon/AR15/AR15_Reload
+  Guid:
+    Data1: 1307484197
+    Data2: 1305535441
+    Data3: -1732932708
+    Data4: -486547920
+  Banks:
+  - {fileID: 4450454076775821849}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1020
 --- !u!114 &4998206642355773995
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1115,6 +2191,87 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &5216480350633172383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Weapons/Epic/Spas 12/Spas 12
+  m_EditorClassIdentifier: 
+  Path: event:/Weapons/Epic/Spas 12/Spas 12
+  Guid:
+    Data1: 1255750263
+    Data2: 1222709863
+    Data3: -1427044683
+    Data4: 1361945599
+  Banks:
+  - {fileID: 4450454076775821849}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 750
+--- !u!114 &5511308386517904157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Enemy/Poker Chip/EDeath
+  m_EditorClassIdentifier: 
+  Path: event:/Enemy/Poker Chip/EDeath
+  Guid:
+    Data1: 1244452896
+    Data2: 1332389405
+    Data3: -1501200193
+    Data4: -2124016951
+  Banks:
+  - {fileID: 4450454076775821849}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1600
+--- !u!114 &5511668594775860634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Weapons/Uncommon/R870/R870_Reload
+  m_EditorClassIdentifier: 
+  Path: event:/Weapons/Uncommon/R870/R870_Reload
+  Guid:
+    Data1: 1429477252
+    Data2: 1261900793
+    Data3: -161268582
+    Data4: 1514579252
+  Banks:
+  - {fileID: 4450454076775821849}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 600
 --- !u!114 &6134273578402042131
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1189,6 +2346,168 @@ MonoBehaviour:
   - Name: Desktop
     Value: 4458848
   Exists: 1
+--- !u!114 &6624340818280205745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Weapons/Commons/M9/M9
+  m_EditorClassIdentifier: 
+  Path: event:/Weapons/Commons/M9/M9
+  Guid:
+    Data1: -767037822
+    Data2: 1286575839
+    Data3: 1472408222
+    Data4: 452003808
+  Banks:
+  - {fileID: 4450454076775821849}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 920
+--- !u!114 &6687822379405305623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Weapons/SniperCock
+  m_EditorClassIdentifier: 
+  Path: event:/Weapons/SniperCock
+  Guid:
+    Data1: -113748502
+    Data2: 1112972949
+    Data3: -1811770738
+    Data4: 2062659011
+  Banks:
+  - {fileID: 4450454076775821849}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2000
+--- !u!114 &6765660101175489160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Weapons/Legendary/M60/M60_Reload
+  m_EditorClassIdentifier: 
+  Path: event:/Weapons/Legendary/M60/M60_Reload
+  Guid:
+    Data1: 935573214
+    Data2: 1123174355
+    Data3: 2142530963
+    Data4: 1860879752
+  Banks:
+  - {fileID: 4450454076775821849}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3400
+--- !u!114 &6878349652268596267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Slots
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Slots
+  Guid:
+    Data1: 811275289
+    Data2: 1131155960
+    Data3: 989877677
+    Data4: 1455355092
+  Banks:
+  - {fileID: 4450454076775821849}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 7463546164881613199}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4300
+--- !u!114 &7463546164881613199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Slots/Skip
+  m_EditorClassIdentifier: 
+  Name: Skip
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2129330713
+    data2: 2642255562
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Value A
+  - Value B
+  Exists: 1
+--- !u!114 &7682749380078714976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Weapons/Legendary/M82/M82
+  m_EditorClassIdentifier: 
+  Path: event:/Weapons/Legendary/M82/M82
+  Guid:
+    Data1: -1777460115
+    Data2: 1213889311
+    Data3: -2048579916
+    Data4: -1271229149
+  Banks:
+  - {fileID: 4450454076775821849}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1950
 --- !u!114 &7774867467026158161
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1298,6 +2617,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1320
+--- !u!114 &8267607477175691237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Weapons/Legendary/M60/M60
+  m_EditorClassIdentifier: 
+  Path: event:/Weapons/Legendary/M60/M60
+  Guid:
+    Data1: -1839926139
+    Data2: 1173130575
+    Data3: 1704806564
+    Data4: 893093908
+  Banks:
+  - {fileID: 4450454076775821849}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 73
 --- !u!114 &8429554944138230402
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1324,6 +2670,26 @@ MonoBehaviour:
   - Carpet
   - Marble
   - Wood
+  Exists: 1
+--- !u!114 &8435112430204173398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMODGMTK2022/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 637936050565378765
+  FileSizes:
+  - Name: Desktop
+    Value: 2998
   Exists: 1
 --- !u!114 &8566911150885226849
 MonoBehaviour:
