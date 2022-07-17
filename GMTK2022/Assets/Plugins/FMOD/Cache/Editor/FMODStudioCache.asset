@@ -772,10 +772,12 @@ MonoBehaviour:
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
-  Parameters: []
+  Parameters:
+  - {fileID: -3448562901576339276}
+  - {fileID: 464462645961670388}
   MinDistance: 1
   MaxDistance: 20
-  Length: 41900
+  Length: 167948
 --- !u!114 &-4922867211599894661
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1047,6 +1049,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 550
+--- !u!114 &-3448562901576339276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Level/Auto Stop
+  m_EditorClassIdentifier: 
+  Name: Auto Stop
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1868221784
+    data2: 3837459819
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-3317874643085335159
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2060,7 +2086,7 @@ MonoBehaviour:
   - {fileID: 5037726346682767913}
   StringsBanks:
   - {fileID: 3856130875643688670}
-  cacheTime: 637936366977046701
+  cacheTime: 637936496755017515
   cacheVersion: 131591
 --- !u!114 &68633115725946912
 MonoBehaviour:
@@ -2116,6 +2142,32 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 73
+--- !u!114 &464462645961670388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Level/Level Type
+  m_EditorClassIdentifier: 
+  Name: Level Type
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 4269970450
+    data2: 3092132731
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Level
+  - Misc
+  Exists: 1
 --- !u!114 &777210553597974826
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2916,10 +2968,10 @@ MonoBehaviour:
   Path: ../FMODGMTK2022/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637936366977046701
+  lastModified: 637936496755017515
   FileSizes:
   - Name: Desktop
-    Value: 3034
+    Value: 3116
   Exists: 1
 --- !u!114 &4082909301367303967
 MonoBehaviour:
@@ -3173,10 +3225,10 @@ MonoBehaviour:
   Path: ../FMODGMTK2022/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637936366977016697
+  lastModified: 637936496754967499
   FileSizes:
   - Name: Desktop
-    Value: 5517632
+    Value: 5520832
   Exists: 1
 --- !u!114 &5067720832289408478
 MonoBehaviour:
