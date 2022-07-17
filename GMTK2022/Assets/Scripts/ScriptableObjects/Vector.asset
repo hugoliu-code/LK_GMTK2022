@@ -22,7 +22,7 @@ MonoBehaviour:
   maxAmmo: 30
   reloadTime: 1
   shotgunShots: 1
-  damage: 6
+  damage: 8
   rarity: 3
   offSet: {x: 1, y: -0.03}
   audioPathReload: event:/Weapons/Epic/Vector/Vector_Reload
