@@ -120,7 +120,7 @@ public class GunController : MonoBehaviour
     }
     void ReloadController()
     {
-        if (Input.GetKeyDown(KeyCode.R) && finishReloadTime < Time.time)
+        if (Input.GetKeyDown(KeyCode.R) && finishReloadTime < Time.time && currentAmmo < maxAmmo)
         {
             onReload?.Invoke(this, EventArgs.Empty);
             isReloading = true;
