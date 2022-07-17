@@ -124,6 +124,7 @@ public class BasicEnemyController : MonoBehaviour
         isCharging = false;
 
         rb.AddForce(forceToAdd);
+        FMODUnity.RuntimeManager.PlayOneShot("event:/Enemy/Poker Chip/Attack", GetComponent<Transform>().position);
         yield return new WaitForSeconds(jumpDelay);
         while (!isTouchingGround)
         {
@@ -145,6 +146,7 @@ public class BasicEnemyController : MonoBehaviour
         {
             //do an animation of some kind
             //Maybe flash the sprite and delete it
+            FMODUnity.RuntimeManager.PlayOneShot("event:/Enemy/Poker Chip/EDeath", GetComponent<Transform>().position);
             Destroy(this.gameObject);
         }
         else

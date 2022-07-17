@@ -5,7 +5,7 @@
 			<value>EDeath</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{fb85f6d9-e7c5-4158-8537-242056156518}</destination>
@@ -82,6 +82,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{2b418c7d-b0cf-47cc-bf0b-db0d80190c3f}">
+		<property name="volume">
+			<value>4.5</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{9af32f8d-75f1-4b16-a88b-e8ab03c70aa4}</destination>
 		</relationship>
@@ -114,7 +117,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{b4f6e929-b923-4c78-8584-8e6f3672e5c1}">
 		<property name="volume">
-			<value>-13.5</value>
+			<value>-9</value>
 		</property>
 		<property name="name">
 			<value>Audio 1</value>
@@ -142,7 +145,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{618fa466-ef96-48dc-a64b-400b46700043}">
 		<property name="volume">
-			<value>-14</value>
+			<value>-9</value>
 		</property>
 		<property name="name">
 			<value>Audio 2</value>
@@ -160,7 +163,6 @@
 	<object class="MixerBusEffectChain" id="{9af32f8d-75f1-4b16-a88b-e8ab03c70aa4}">
 		<relationship name="effects">
 			<destination>{bea417cb-617a-4cb3-ae7d-6933a5eccada}</destination>
-			<destination>{9835385b-909b-4e2d-acec-db260ec5240e}</destination>
 			<destination>{435dfed0-3c0b-4e1f-9e57-cd5e16a5cb7e}</destination>
 		</relationship>
 	</object>
@@ -187,7 +189,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{0cd2d943-fce2-43df-b095-f8bb27f3a4e4}" />
 	<object class="MixerBusFader" id="{bea417cb-617a-4cb3-ae7d-6933a5eccada}" />
-	<object class="SpatialiserEffect" id="{9835385b-909b-4e2d-acec-db260ec5240e}" />
 	<object class="ThreeEQEffect" id="{435dfed0-3c0b-4e1f-9e57-cd5e16a5cb7e}">
 		<property name="lowGain">
 			<value>-12</value>

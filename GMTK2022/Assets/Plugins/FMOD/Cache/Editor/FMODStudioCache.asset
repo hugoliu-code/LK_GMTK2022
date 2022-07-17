@@ -81,6 +81,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-7136896955070208105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Enemy/Poker Chip/Attack
+  m_EditorClassIdentifier: 
+  Path: event:/Enemy/Poker Chip/Attack
+  Guid:
+    Data1: 1374333791
+    Data2: 1212585009
+    Data3: 404637352
+    Data4: 1631008466
+  Banks:
+  - {fileID: -6217022904627362991}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1320
 --- !u!114 &-6816356244270533714
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -232,10 +259,14 @@ MonoBehaviour:
   Path: ../FMODGMTK2022/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
+<<<<<<< Updated upstream
   lastModified: 637936067604926082
+=======
+  lastModified: 637935971065843511
+>>>>>>> Stashed changes
   FileSizes:
   - Name: Desktop
-    Value: 4443712
+    Value: 4458848
   Exists: 1
 --- !u!114 &-5391025765294569781
 MonoBehaviour:
@@ -549,10 +580,14 @@ MonoBehaviour:
   Path: ../FMODGMTK2022/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
+<<<<<<< Updated upstream
   lastModified: 637936067605015862
+=======
+  lastModified: 637935971065873515
+>>>>>>> Stashed changes
   FileSizes:
   - Name: Desktop
-    Value: 2948
+    Value: 2998
   Exists: 1
 --- !u!114 &-830830589280142452
 MonoBehaviour:
@@ -722,12 +757,17 @@ MonoBehaviour:
   - {fileID: 6627475983982376371}
   - {fileID: -6816356244270533714}
   - {fileID: 942168697767621009}
+  - {fileID: -7136896955070208105}
   EditorParameters: []
   MasterBanks:
   - {fileID: -6217022904627362991}
   StringsBanks:
   - {fileID: -839764115703889835}
+<<<<<<< Updated upstream
   cacheTime: 637936067605015862
+=======
+  cacheTime: 637935971065873515
+>>>>>>> Stashed changes
   cacheVersion: 131591
 --- !u!114 &346709789144044906
 MonoBehaviour:
@@ -1400,7 +1440,7 @@ MonoBehaviour:
   Banks:
   - {fileID: -6217022904627362991}
   IsStream: 0
-  Is3D: 1
+  Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
