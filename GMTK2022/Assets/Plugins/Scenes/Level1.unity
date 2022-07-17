@@ -9327,7 +9327,7 @@ MonoBehaviour:
   chargeTime: 1
   jumpDelay: 0.2
   attackDirection: {x: 1, y: 1}
-  health: 150
+  health: 100
   anim: {fileID: 76135709}
 --- !u!50 &230346464
 Rigidbody2D:
@@ -10449,7 +10449,7 @@ MonoBehaviour:
   chargeTime: 1
   jumpDelay: 0.2
   attackDirection: {x: 1, y: 1}
-  health: 150
+  health: 100
   anim: {fileID: 76135709}
 --- !u!50 &695603134
 Rigidbody2D:
@@ -10681,7 +10681,7 @@ MonoBehaviour:
   chargeTime: 1
   jumpDelay: 0.2
   attackDirection: {x: 1, y: 1}
-  health: 150
+  health: 100
   anim: {fileID: 76135709}
 --- !u!50 &740410032
 Rigidbody2D:
@@ -45791,7 +45791,7 @@ MonoBehaviour:
   chargeTime: 1
   jumpDelay: 0.2
   attackDirection: {x: 1, y: 1}
-  health: 150
+  health: 100
   anim: {fileID: 76135709}
 --- !u!50 &1048695908
 Rigidbody2D:
@@ -47064,7 +47064,7 @@ MonoBehaviour:
   chargeTime: 1
   jumpDelay: 0.2
   attackDirection: {x: 1, y: 1}
-  health: 150
+  health: 100
   anim: {fileID: 76135709}
 --- !u!50 &1377292151
 Rigidbody2D:
@@ -47391,7 +47391,7 @@ MonoBehaviour:
   chargeTime: 1
   jumpDelay: 0.2
   attackDirection: {x: 1, y: 1}
-  health: 150
+  health: 100
   anim: {fileID: 76135709}
 --- !u!50 &1414526110
 Rigidbody2D:
@@ -47500,7 +47500,7 @@ MonoBehaviour:
   chargeTime: 1
   jumpDelay: 0.2
   attackDirection: {x: 1, y: 1}
-  health: 150
+  health: 100
   anim: {fileID: 76135709}
 --- !u!50 &1420514151
 Rigidbody2D:
@@ -48072,7 +48072,7 @@ MonoBehaviour:
   chargeTime: 1
   jumpDelay: 0.2
   attackDirection: {x: 1, y: 1}
-  health: 150
+  health: 100
   anim: {fileID: 76135709}
 --- !u!50 &1580688323
 Rigidbody2D:
@@ -49469,7 +49469,7 @@ MonoBehaviour:
   chargeTime: 1
   jumpDelay: 0.2
   attackDirection: {x: 1, y: 1}
-  health: 150
+  health: 100
   anim: {fileID: 76135709}
 --- !u!50 &1932772097
 Rigidbody2D:
@@ -50288,7 +50288,7 @@ MonoBehaviour:
   chargeTime: 1
   jumpDelay: 0.2
   attackDirection: {x: 1, y: 1}
-  health: 150
+  health: 100
   anim: {fileID: 76135709}
 --- !u!50 &2104065430
 Rigidbody2D:
@@ -50397,7 +50397,7 @@ MonoBehaviour:
   chargeTime: 1
   jumpDelay: 0.2
   attackDirection: {x: 1, y: 1}
-  health: 150
+  health: 100
   anim: {fileID: 76135709}
 --- !u!50 &2122223484
 Rigidbody2D:
@@ -51272,6 +51272,10 @@ PrefabInstance:
       propertyPath: anim
       value: 
       objectReference: {fileID: 76135709}
+    - target: {fileID: 7519269523471470142, guid: 0fad3ec408d99a948a5ac0302f626007, type: 3}
+      propertyPath: health
+      value: 100
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0fad3ec408d99a948a5ac0302f626007, type: 3}
 --- !u!224 &7542619119851366342

@@ -281,5 +281,5 @@ MonoBehaviour:
   chargeTime: 1
   jumpDelay: 0.2
   attackDirection: {x: 1, y: 1}
-  health: 150
+  health: 100
   anim: {fileID: 0}
