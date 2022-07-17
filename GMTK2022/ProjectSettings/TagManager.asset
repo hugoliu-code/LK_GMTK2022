@@ -58,6 +58,9 @@ TagManager:
   - name: Background-3
     uniqueID: 500766727
     locked: 0
+  - name: ForegroundDetail-1
+    uniqueID: 2903676297
+    locked: 0
   - name: Objects
     uniqueID: 3191726455
     locked: 0
@@ -66,9 +69,6 @@ TagManager:
     locked: 0
   - name: Foreground-Objects
     uniqueID: 3434647611
-    locked: 0
-  - name: ForegroundDetail-1
-    uniqueID: 2903676297
     locked: 0
   - name: Foreground
     uniqueID: 2877188675
