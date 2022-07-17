@@ -5,6 +5,7 @@ using UnityEngine;
 public class LevelClearScript : MonoBehaviour
 {
     public int enemiesLeft;
+    private bool hit = false;
     private void Start()
     {
         enemiesLeft += GameObject.FindGameObjectsWithTag("BasicEnemy").Length;
@@ -13,8 +14,9 @@ public class LevelClearScript : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.CompareTag("Player") && enemiesLeft <= 0)
+        if(collision.CompareTag("Player") && enemiesLeft <= 0 && !hit)
         {
+            hit = true;
             FindObjectOfType<GameController>().currentLevel++;
             FindObjectOfType<LevelTraversal>().LevelNav("GunSelection");
         }

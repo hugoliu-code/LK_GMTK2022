@@ -282,4 +282,4 @@ MonoBehaviour:
   jumpDelay: 0.2
   attackDirection: {x: 1, y: 1}
   health: 100
-  anim: {fileID: 0}
+  anim: {fileID: 7519269523158606051}
