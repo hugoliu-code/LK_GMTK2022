@@ -30,7 +30,7 @@ public class BulletScript : MonoBehaviour
     void HandleCollision(RaycastHit2D collision)
     {
         transform.position = collision.point;
-        Invoke("CustomDestroy", 0.01f);
+        Invoke("CustomDestroy", 0.03f);
     }
     void CustomDestroy()
     {

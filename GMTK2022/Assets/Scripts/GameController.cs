@@ -6,16 +6,29 @@ public class GameController : MonoBehaviour
 {
     public int health = 5;
     public int currentLevel = 1;
+    public GameController instance;
     void Awake()
     {
-        GameObject[] objs = GameObject.FindGameObjectsWithTag("GameController");
-
-        if (objs.Length > 1)
+        if(instance == null)
         {
-            Destroy(this.gameObject);
+            instance = this;
+            DontDestroyOnLoad(gameObject);
         }
-
-        DontDestroyOnLoad(this.gameObject);
+        else if (instance != this)
+        {
+            Destroy(instance.gameObject);
+            instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        //if (instance != null)
+        //{
+        //    Destroy(gameObject);
+        //}
+        //else
+        //{
+        //    instance = this;
+        //}
+        //DontDestroyOnLoad(this);
     }
     public void AddHealth()
     {

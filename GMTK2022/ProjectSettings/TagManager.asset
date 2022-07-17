@@ -10,6 +10,8 @@ TagManager:
   - 'Material: Carpet'
   - 'Material: Marble'
   - 'Material: Wood'
+  - ShootEnemy
+  - StrongEnemy
   layers:
   - Default
   - TransparentFX

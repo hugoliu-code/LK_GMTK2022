@@ -147,6 +147,7 @@ public class BasicEnemyController : MonoBehaviour
             //do an animation of some kind
             //Maybe flash the sprite and delete it
             FMODUnity.RuntimeManager.PlayOneShot("event:/Enemy/Poker Chip/EDeath", GetComponent<Transform>().position);
+            FindObjectOfType<LevelClearScript>().enemiesLeft--;
             Destroy(this.gameObject);
         }
         else

@@ -107,6 +107,7 @@ public class CardController : MonoBehaviour
     }
     private void FinishCard(object sender, EventArgs e)
     {
+        gm.onChoseCard -= FinishCard;
         if (!isChoosen)
         {
             box.enabled = false;

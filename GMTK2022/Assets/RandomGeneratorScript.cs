@@ -57,6 +57,7 @@ public class RandomGeneratorScript : MonoBehaviour
     }
     private void FinishEverything(object sender, EventArgs e)
     {
+        gm.onChoseCard -= FinishEverything;
         gc.AddHealth();
         Invoke("EndText", 1f);
     }
@@ -67,6 +68,7 @@ public class RandomGeneratorScript : MonoBehaviour
     }
     void NextScene()
     {
+        
         FindObjectOfType<LevelTraversal>().LevelNav("Level" + gc.currentLevel.ToString());
     }
 }

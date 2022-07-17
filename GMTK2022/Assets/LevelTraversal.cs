@@ -41,7 +41,7 @@ public class LevelTraversal : MonoBehaviour
     IEnumerator LoadLevel(string LevelName)
     {
         transition.SetBool("Start",true);
-        yield return new WaitForSeconds(0.6f);
+        yield return new WaitForSeconds(1f);
         SceneManager.LoadScene(LevelName);
     }
 }
