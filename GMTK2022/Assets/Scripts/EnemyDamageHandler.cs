@@ -10,6 +10,8 @@ public class EnemyDamageHandler : MonoBehaviour
         if (enemy.CompareTag("BasicEnemy")){
             enemy.GetComponent<BasicEnemyController>().TakeDamage(damage);
         }
-        if (enemy.CompareTag("ShootingEnemy")) { }
+        if (enemy.CompareTag("ShootingEnemy")) { 
+        
+        }
     }
 }
