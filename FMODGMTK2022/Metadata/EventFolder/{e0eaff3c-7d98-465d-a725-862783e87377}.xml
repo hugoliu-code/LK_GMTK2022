@@ -5,7 +5,7 @@
 			<value>AA12</value>
 		</property>
 		<relationship name="folder">
-			<destination>{785cbbe9-9fd2-42d8-bcb3-5788e3177640}</destination>
+			<destination>{4e29aad2-ef99-4297-a54b-430f2d710c5e}</destination>
 		</relationship>
 	</object>
 </objects>
