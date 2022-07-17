@@ -12,13 +12,15 @@ public class LevelTraversal : MonoBehaviour
     {
         //Time.timeScale = 1f;
         //if (soundOn)
-            //click.Play();
+        //click.Play();
+        FMODUnity.RuntimeManager.PlayOneShot("event:/UI/Confirm");
         StartCoroutine(LoadLevel(levelName));
     }
     public void FirstLevel()
     {
         FindObjectOfType<GameController>().ResetController();
         Debug.Log("tried");
+        FMODUnity.RuntimeManager.PlayOneShot("event:/UI/Confirm");
         StartCoroutine(LoadLevel("GunSelection"));
     }
 
@@ -41,6 +43,8 @@ public class LevelTraversal : MonoBehaviour
     IEnumerator LoadLevel(string LevelName)
     {
         transition.SetBool("Start",true);
+        yield return new WaitForSeconds(0.2f);
+        FMODUnity.RuntimeManager.PlayOneShot("event:/UI/Screen");
         yield return new WaitForSeconds(1f);
         SceneManager.LoadScene(LevelName);
     }

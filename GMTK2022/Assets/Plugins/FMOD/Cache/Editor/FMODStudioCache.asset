@@ -748,7 +748,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 35200
+  Length: 41900
 --- !u!114 &-4922867211599894661
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -883,7 +883,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 3400
+  Length: 5500
 --- !u!114 &-4422030103807215269
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -937,7 +937,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 900
+  Length: 1763
 --- !u!114 &-3735128908273155354
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1533,7 +1533,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 3340
+  Length: 4500
 --- !u!114 &-1741818614970633906
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1749,7 +1749,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 2200
+  Length: 2950
 --- !u!114 &-877916177458553106
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1938,7 +1938,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 900
+  Length: 1520
 --- !u!114 &-41457582642258702
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2027,12 +2027,13 @@ MonoBehaviour:
   - {fileID: 7339197168632682430}
   - {fileID: -8389638204428504038}
   - {fileID: 5964619615481982757}
+  - {fileID: 2666362638913504914}
   EditorParameters: []
   MasterBanks:
   - {fileID: 5037726346682767913}
   StringsBanks:
   - {fileID: 3856130875643688670}
-  cacheTime: 637936158990737421
+  cacheTime: 637936366977046701
   cacheVersion: 131591
 --- !u!114 &68633115725946912
 MonoBehaviour:
@@ -2603,6 +2604,33 @@ MonoBehaviour:
   - Marble
   - Wood
   Exists: 1
+--- !u!114 &2666362638913504914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/Screen
+  m_EditorClassIdentifier: 
+  Path: event:/UI/Screen
+  Guid:
+    Data1: -1506369225
+    Data2: 1127406831
+    Data3: 660080261
+    Data4: 449103674
+  Banks:
+  - {fileID: 5037726346682767913}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1626
 --- !u!114 &2677177061843911325
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2861,10 +2889,10 @@ MonoBehaviour:
   Path: ../FMODGMTK2022/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637936158990737421
+  lastModified: 637936366977046701
   FileSizes:
   - Name: Desktop
-    Value: 2998
+    Value: 3034
   Exists: 1
 --- !u!114 &4082909301367303967
 MonoBehaviour:
@@ -3102,7 +3130,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 560
+  Length: 2000
 --- !u!114 &5037726346682767913
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3118,10 +3146,10 @@ MonoBehaviour:
   Path: ../FMODGMTK2022/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637936158990556578
+  lastModified: 637936366977016697
   FileSizes:
   - Name: Desktop
-    Value: 4924352
+    Value: 5517632
   Exists: 1
 --- !u!114 &5067720832289408478
 MonoBehaviour:
@@ -3421,7 +3449,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 1480
+  Length: 1857
 --- !u!114 &6134273578402042131
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3463,10 +3491,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Enemy/Poker Chip/EDeath
   Guid:
-    Data1: 1244452896
-    Data2: 1332389405
-    Data3: -1501200193
-    Data4: -2124016951
+    Data1: -1184999749
+    Data2: 1235446429
+    Data3: -1140821339
+    Data4: -179853436
   Banks:
   - {fileID: 5037726346682767913}
   IsStream: 0
