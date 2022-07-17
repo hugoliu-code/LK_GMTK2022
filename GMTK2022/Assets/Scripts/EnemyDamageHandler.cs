@@ -11,7 +11,7 @@ public class EnemyDamageHandler : MonoBehaviour
             enemy.GetComponent<BasicEnemyController>().TakeDamage(damage);
         }
         if (enemy.CompareTag("ShootingEnemy")) { 
-        
+            
         }
     }
 }

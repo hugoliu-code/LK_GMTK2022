@@ -6,6 +6,7 @@ public class ShootEnemyController : MonoBehaviour
 {
     [SerializeField] float minimumDetectDistance;
     public bool seesPlayer = false;
+    [SerializeField] LayerMask player;
     void Start()
     {
         
@@ -14,6 +15,6 @@ public class ShootEnemyController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+     
     }
 }
