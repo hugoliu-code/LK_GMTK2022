@@ -74,6 +74,7 @@ public class GunController : MonoBehaviour
                 if (a == 0)
                 {
                     currentAmmo -= 1;
+                    //PLAY SHOOT SOUND HERE
                     Shoot();
                 }
                 else
@@ -123,6 +124,8 @@ public class GunController : MonoBehaviour
             onReload?.Invoke(this, EventArgs.Empty);
             isReloading = true;
             finishReloadTime = Time.time + reloadTime;
+
+            //PUT RELOAD SOUND HERE
             Invoke("Reload", reloadTime);
         }
     }

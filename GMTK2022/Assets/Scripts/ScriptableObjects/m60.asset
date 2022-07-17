@@ -25,5 +25,5 @@ MonoBehaviour:
   shotgunShots: 1
   damage: 40
   rarity: 4
-  offSet: {x: 0, y: 0}
+  offSet: {x: 1.5, y: 0.15}
   audioPath: 
