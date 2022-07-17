@@ -7,6 +7,9 @@ TagManager:
   - BasicEnemy
   - ShootingEnemy
   - GunManager
+  - 'Material: Carpet'
+  - 'Material: Marble'
+  - 'Material: Wood'
   layers:
   - Default
   - TransparentFX

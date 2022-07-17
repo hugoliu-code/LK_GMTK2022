@@ -51,7 +51,8 @@ public class PlayerController : MonoBehaviour
         Fall,
         Roll
     }
-    #endregion 
+    #endregion
+
     private void Start()
     {
         //Initializing Components
@@ -68,6 +69,7 @@ public class PlayerController : MonoBehaviour
         CheckDirection();
         AnimationController();
     }
+
     public void TakeDamage()
     {
         if(isRolling || invincibleUntil > Time.time)
@@ -80,6 +82,7 @@ public class PlayerController : MonoBehaviour
         //Remove Health
         
         gc.health -= 1;
+        FMODUnity.RuntimeManager.PlayOneShot("event:/Player/PHurt", GetComponent<Transform>().position);
     }
     void ConditionsCheck()
     {
@@ -138,6 +141,7 @@ public class PlayerController : MonoBehaviour
             transform.localScale = new Vector3(-1, 1, 1);
         }
     }
+
     #region Horizontal Movement
     void HorizontalMovement()
     {
@@ -162,6 +166,7 @@ public class PlayerController : MonoBehaviour
             rb.velocity = new Vector2(0, rb.velocity.y);
         }
     }
+
     void RollMovement()
     {
         if (Input.GetKeyDown(KeyCode.S) && Time.time > nextAvailableRollTime && isTouchingGround)
@@ -177,8 +182,10 @@ public class PlayerController : MonoBehaviour
                 direction = -1;
             }
             StartCoroutine(Roll(rollTime, rollSpeed, direction));
+            FMODUnity.RuntimeManager.PlayOneShot("event:/Player/Roll", GetComponent<Transform>().position);
         }
     }
+
     IEnumerator Roll(float rollTime, float rollSpeed, int direction)
     {
         isRolling = true;
@@ -187,10 +194,7 @@ public class PlayerController : MonoBehaviour
 
         isRolling = false;
     }
-
     #endregion
-
-
 
     #region Vertical Movement
     void VerticalMovement() //Note to self: might remove the fancy hold to jump higher thing
@@ -214,7 +218,10 @@ public class PlayerController : MonoBehaviour
     void Jump()
     {
         if (Input.GetKeyDown(KeyCode.W))
+        {
             rb.velocity = new Vector2(rb.velocity.x, jumpSpeed);
+            FMODUnity.RuntimeManager.PlayOneShot("event:/Player/Jump", GetComponent<Transform>().position);
+        }
     }
 
     #endregion
