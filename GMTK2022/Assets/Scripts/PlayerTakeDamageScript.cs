@@ -12,7 +12,7 @@ public class PlayerTakeDamageScript : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("BasicEnemy"))
+        if (collision.CompareTag("BasicEnemy") || collision.CompareTag("Spikes"))
         {
             player.TakeDamage();
         }
