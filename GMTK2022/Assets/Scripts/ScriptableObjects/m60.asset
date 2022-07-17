@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b839d98e57c99d48a0d4a0678aa8d45, type: 3}
   m_Name: m60
   m_EditorClassIdentifier: 
-  name: m60
+  name: m-60
   description: the royal flush of weapons \n Nothing stands in the way of this heavy
     duty lmg
   cardArt: {fileID: 21300000, guid: 323853ea38904604f8cf714451e0249b, type: 3}

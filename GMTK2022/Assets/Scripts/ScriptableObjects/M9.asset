@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: M9
   m_EditorClassIdentifier: 
   name: M9
-  description: Standard Issue pistol \n Try not to die
+  description: Standard Issue pistol \n ...Try not to die
   cardArt: {fileID: 21300000, guid: 1ff8e525a27f8ff4ab00677829684522, type: 3}
   armArt: {fileID: 21300000, guid: 57836212d1c13104c827499c97e2bfd5, type: 3}
   bulletSpeed: 90

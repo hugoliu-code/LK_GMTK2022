@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using System;
 public class GunManager : MonoBehaviour
 {
     //This script will persist through scenes, and keep track of the current gun being used/selected
@@ -24,5 +24,10 @@ public class GunManager : MonoBehaviour
 
         DontDestroyOnLoad(this.gameObject);
     }
-
+    public event EventHandler onChoseCard;
+    public void CardChoose(GunType choosenGun)
+    {
+        currentGun = choosenGun;
+        onChoseCard?.Invoke(this, EventArgs.Empty);
+    }
 }

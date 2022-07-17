@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b839d98e57c99d48a0d4a0678aa8d45, type: 3}
   m_Name: Glock18
   m_EditorClassIdentifier: 
-  name: Glock18
+  name: Glock-18
   description: A trusty sidearm for when things get dicey
   cardArt: {fileID: 21300000, guid: 518148daeb2d2fe4ab013e5c978116dd, type: 3}
   armArt: {fileID: 21300000, guid: 2f741dc194332cb439a4071d46b591ea, type: 3}
