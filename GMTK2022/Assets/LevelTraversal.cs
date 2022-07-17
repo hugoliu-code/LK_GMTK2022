@@ -6,6 +6,8 @@ public class LevelTraversal : MonoBehaviour
 {
     public Animator transition;
 
+    private static FMOD.Studio.EventInstance Music;
+
     //[SerializeField] private AudioSource click;
 
     public void LevelNav(string levelName)
@@ -24,14 +26,22 @@ public class LevelTraversal : MonoBehaviour
         StartCoroutine(LoadLevel("GunSelection"));
     }
 
+    void Start()
+    {
+        Music = FMODUnity.RuntimeManager.CreateInstance("event:/OST/Music");
+        Music.start();
+        Music.release();
+    }
 
     public void SettingSelect()
     {
+        Progress("Misc");
         StartCoroutine(LoadLevel("Settings"));
     }
 
     public void MainMenuSelect()
     {
+        Progress("Misc");
         StartCoroutine(LoadLevel("StartMenu"));
     }
 
@@ -47,5 +57,15 @@ public class LevelTraversal : MonoBehaviour
         FMODUnity.RuntimeManager.PlayOneShot("event:/UI/Screen");
         yield return new WaitForSeconds(1f);
         SceneManager.LoadScene(LevelName);
+    }
+
+    public void Progress (string LevelName)
+    {
+        Music.setParameterByNameWithLabel("Level Type", LevelName);
+    }
+
+    private void OnDestroy()
+    {
+       Music.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
     }
 }

@@ -1,5 +1,32 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9220424656005536084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Level Type
+  m_EditorClassIdentifier: 
+  Name: Level Type
+  StudioPath: parameter:/Level Type
+  Min: 0
+  Max: 2
+  Default: 1
+  ID:
+    data1: 4269970450
+    data2: 3092132731
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - L1
+  - Level
+  - Misc
+  Exists: 1
 --- !u!114 &-8832086366645366847
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -270,6 +297,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1500
+--- !u!114 &-7534162295648101061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Level Type
+  m_EditorClassIdentifier: 
+  Name: Level Type
+  StudioPath: parameter:/Level Type
+  Min: 0
+  Max: 2
+  Default: 1
+  ID:
+    data1: 4269970450
+    data2: 3092132731
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - L1
+  - Level
+  - Misc
+  Exists: 1
 --- !u!114 &-7450308092827012469
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -377,32 +431,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 528
---- !u!114 &-7061609410004648860
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Level/Level Type
-  m_EditorClassIdentifier: 
-  Name: Level Type
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 4269970450
-    data2: 3092132731
-  Type: 2
-  IsGlobal: 0
-  Labels:
-  - Level
-  - Misc
-  Exists: 1
 --- !u!114 &-7044977391391624233
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -586,6 +614,34 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 126048
+--- !u!114 &-6224515689184606938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/OST/Music
+  m_EditorClassIdentifier: 
+  Path: event:/OST/Music
+  Guid:
+    Data1: 1273348319
+    Data2: 1224336132
+    Data3: -356123724
+    Data4: 903261856
+  Banks:
+  - {fileID: 5037726346682767913}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 8517925414484223280}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 172603
 --- !u!114 &-5901435779794549433
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -694,30 +750,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 871
---- !u!114 &-5349562319917731580
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Level/Auto Stop
-  m_EditorClassIdentifier: 
-  Name: Auto Stop
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 1868221784
-    data2: 3837459819
-  Type: 0
-  IsGlobal: 0
-  Labels: []
-  Exists: 1
 --- !u!114 &-5335951309471341331
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -822,12 +854,10 @@ MonoBehaviour:
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
-  Parameters:
-  - {fileID: -5349562319917731580}
-  - {fileID: -7061609410004648860}
+  Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 167948
+  Length: 41650
 --- !u!114 &-4922867211599894661
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2131,12 +2161,14 @@ MonoBehaviour:
   - {fileID: -8389638204428504038}
   - {fileID: 5964619615481982757}
   - {fileID: -5901435779794549433}
-  EditorParameters: []
+  - {fileID: -6224515689184606938}
+  EditorParameters:
+  - {fileID: -7534162295648101061}
   MasterBanks:
   - {fileID: 5037726346682767913}
   StringsBanks:
   - {fileID: 3856130875643688670}
-  cacheTime: 637936609253416337
+  cacheTime: 637936544696213046
   cacheVersion: 131591
 --- !u!114 &68633115725946912
 MonoBehaviour:
@@ -2895,6 +2927,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 700
+--- !u!114 &3126336374022697385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music/Level Type
+  m_EditorClassIdentifier: 
+  Name: Level Type
+  StudioPath: 
+  Min: 0
+  Max: 2
+  Default: 1
+  ID:
+    data1: 4269970450
+    data2: 3092132731
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - L1
+  - Level
+  - Misc
+  Exists: 1
 --- !u!114 &3466143431475419023
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3018,10 +3077,10 @@ MonoBehaviour:
   Path: ../FMODGMTK2022/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637936609253416337
+  lastModified: 637936544696213046
   FileSizes:
   - Name: Desktop
-    Value: 3116
+    Value: 3112
   Exists: 1
 --- !u!114 &4082909301367303967
 MonoBehaviour:
@@ -3275,10 +3334,10 @@ MonoBehaviour:
   Path: ../FMODGMTK2022/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637936609253326583
+  lastModified: 637936544696163021
   FileSizes:
   - Name: Desktop
-    Value: 5520832
+    Value: 5524128
   Exists: 1
 --- !u!114 &5067720832289408478
 MonoBehaviour:
@@ -3843,6 +3902,34 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 3400
+--- !u!114 &6766289159467199734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/OST/Music
+  m_EditorClassIdentifier: 
+  Path: event:/OST/Music
+  Guid:
+    Data1: 1273348319
+    Data2: 1224336132
+    Data3: -356123724
+    Data4: 903261856
+  Banks:
+  - {fileID: 5037726346682767913}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 3126336374022697385}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 172603
 --- !u!114 &6878349652268596267
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4159,6 +4246,33 @@ MonoBehaviour:
   FileSizes:
   - Name: Desktop
     Value: 2998
+  Exists: 1
+--- !u!114 &8517925414484223280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music/Level Type
+  m_EditorClassIdentifier: 
+  Name: Level Type
+  StudioPath: 
+  Min: 0
+  Max: 2
+  Default: 1
+  ID:
+    data1: 4269970450
+    data2: 3092132731
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - L1
+  - Level
+  - Misc
   Exists: 1
 --- !u!114 &8566911150885226849
 MonoBehaviour:
