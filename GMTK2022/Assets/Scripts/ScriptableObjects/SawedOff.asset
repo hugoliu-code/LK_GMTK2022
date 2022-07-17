@@ -17,12 +17,13 @@ MonoBehaviour:
   cardArt: {fileID: 21300000, guid: 85567965c77edc34481a422f0524e217, type: 3}
   armArt: {fileID: 21300000, guid: 118309a2aec34c947b6c7fd4f8c43c49, type: 3}
   bulletSpeed: 50
-  fireRate: 1
+  fireRate: 0.2
   bulletSpread: 90
   maxAmmo: 2
-  reloadTime: 3
+  reloadTime: 1.6
   shotgunShots: 8
-  damage: 10
+  damage: 8
   rarity: 0
   offSet: {x: 1.5, y: 0.17}
-  audioPath: 
+  audioPathReload: event:/Weapons/Commons/Sawed Off/Sawed Off_Reload
+  audioPathShoot: event:/Weapons/Commons/Sawed Off/Sawed Off

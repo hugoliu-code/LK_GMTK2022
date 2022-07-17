@@ -20,9 +20,10 @@ MonoBehaviour:
   fireRate: 1
   bulletSpread: 30
   maxAmmo: 8
-  reloadTime: 5
+  reloadTime: 1.4
   shotgunShots: 1
-  damage: 55
+  damage: 45
   rarity: 2
   offSet: {x: 1, y: 0.1}
-  audioPath: 
+  audioPathReload: event:/Weapons/Rare/Deagle/Deagle_Reload
+  audioPathShoot: event:/Weapons/Rare/Deagle/Deagle

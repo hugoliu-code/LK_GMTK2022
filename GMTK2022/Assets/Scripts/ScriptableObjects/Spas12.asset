@@ -16,13 +16,14 @@ MonoBehaviour:
   description: Powerful yet precise \n the best of both worlds
   cardArt: {fileID: 21300000, guid: 75a918e2a9c039c478fd77989ad6abeb, type: 3}
   armArt: {fileID: 21300000, guid: e31cb8e2fa3a96f4cb4f2adca282dab7, type: 3}
-  bulletSpeed: 100
-  fireRate: 1.5
+  bulletSpeed: 80
+  fireRate: 1
   bulletSpread: 20
   maxAmmo: 8
-  reloadTime: 5
+  reloadTime: 0.5
   shotgunShots: 8
-  damage: 20
+  damage: 7
   rarity: 3
   offSet: {x: 1.7, y: 0.16}
-  audioPath: 
+  audioPathReload: event:/Weapons/Epic/Spas 12/Spas 12_Reload
+  audioPathShoot: event:/Weapons/Epic/Spas 12/Spas 12

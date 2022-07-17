@@ -16,13 +16,14 @@ MonoBehaviour:
   description: one-tap machine \n no enemy stands before its mighty lead
   cardArt: {fileID: 21300000, guid: 9689d045cab25f5429c366cae41ae8e5, type: 3}
   armArt: {fileID: 21300000, guid: 0e4d7fc2ff8969d4ebe2cc22854131d1, type: 3}
-  bulletSpeed: 170
-  fireRate: 1.2
+  bulletSpeed: 100
+  fireRate: 2
   bulletSpread: 1
   maxAmmo: 6
-  reloadTime: 4
+  reloadTime: 3.3
   shotgunShots: 1
   damage: 400
   rarity: 4
   offSet: {x: 1.8, y: 0.15}
-  audioPath: 
+  audioPathReload: event:/Weapons/Legendary/M82/M82_Reload
+  audioPathShoot: event:/Weapons/Legendary/M82/M82

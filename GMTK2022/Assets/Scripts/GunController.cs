@@ -30,7 +30,7 @@ public class GunController : MonoBehaviour
     private void Start()
     {
         gm = FindObjectOfType<GunManager>();
-        UpdateGun();
+        //UpdateGun();
         currentAmmo = maxAmmo;
     }
     private void UpdateGun()
@@ -46,6 +46,7 @@ public class GunController : MonoBehaviour
     }
     private void Update()
     {
+        UpdateGun();
         ShootingController();
         ReloadController();
     }
@@ -63,6 +64,7 @@ public class GunController : MonoBehaviour
                 onReload?.Invoke(this, EventArgs.Empty);
                 isReloading = true;
                 finishReloadTime = Time.time + reloadTime;
+                FMODUnity.RuntimeManager.PlayOneShot(gm.currentGun.audioPathReload, GetComponent<Transform>().position);
                 Invoke("Reload", reloadTime);
             }
             if (Time.time < nextAvailableFireTime || currentAmmo <= 0 || player.isRolling || isReloading)
@@ -74,7 +76,7 @@ public class GunController : MonoBehaviour
                 if (a == 0)
                 {
                     currentAmmo -= 1;
-                    //PLAY SHOOT SOUND HERE
+                    FMODUnity.RuntimeManager.PlayOneShot(gm.currentGun.audioPathShoot, GetComponent<Transform>().position);
                     Shoot();
                 }
                 else
@@ -119,13 +121,13 @@ public class GunController : MonoBehaviour
     }
     void ReloadController()
     {
-        if (Input.GetKeyDown(KeyCode.R) && finishReloadTime < Time.time)
+        if (Input.GetKeyDown(KeyCode.R) && finishReloadTime < Time.time && currentAmmo != maxAmmo)
         {
             onReload?.Invoke(this, EventArgs.Empty);
             isReloading = true;
             finishReloadTime = Time.time + reloadTime;
 
-            //PUT RELOAD SOUND HERE
+            FMODUnity.RuntimeManager.PlayOneShot(gm.currentGun.audioPathReload, GetComponent<Transform>().position);
             Invoke("Reload", reloadTime);
         }
     }

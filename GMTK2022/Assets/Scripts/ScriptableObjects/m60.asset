@@ -17,13 +17,14 @@ MonoBehaviour:
     duty lmg
   cardArt: {fileID: 21300000, guid: 323853ea38904604f8cf714451e0249b, type: 3}
   armArt: {fileID: 21300000, guid: 449df483ed2598d408cdc9efbba2690c, type: 3}
-  bulletSpeed: 100
-  fireRate: 0.03
-  bulletSpread: 40
+  bulletSpeed: 75
+  fireRate: 0.09
+  bulletSpread: 25
   maxAmmo: 60
-  reloadTime: 10
+  reloadTime: 3.4
   shotgunShots: 1
-  damage: 40
+  damage: 25
   rarity: 4
   offSet: {x: 1.5, y: 0.15}
-  audioPath: 
+  audioPathReload: event:/Weapons/Legendary/M60/M60_Reload
+  audioPathShoot: event:/Weapons/Legendary/M60/M60

@@ -17,12 +17,13 @@ MonoBehaviour:
   cardArt: {fileID: 21300000, guid: 518148daeb2d2fe4ab013e5c978116dd, type: 3}
   armArt: {fileID: 21300000, guid: 2f741dc194332cb439a4071d46b591ea, type: 3}
   bulletSpeed: 100
-  fireRate: 0.3
+  fireRate: 0.06
   bulletSpread: 20
   maxAmmo: 12
-  reloadTime: 4
+  reloadTime: 0.9
   shotgunShots: 1
-  damage: 15
+  damage: 10
   rarity: 0
   offSet: {x: 1, y: 0.05}
-  audioPath: 
+  audioPathReload: event:/Weapons/Commons/Glock/Glock_Reload
+  audioPathShoot: event:/Weapons/Commons/Glock/Glock

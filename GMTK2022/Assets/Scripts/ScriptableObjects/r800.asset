@@ -17,12 +17,13 @@ MonoBehaviour:
   cardArt: {fileID: 21300000, guid: 2cffb92a6d88aaf4a97bde9efcf44140, type: 3}
   armArt: {fileID: 21300000, guid: e9822b6f9400e5b4a9d424af3ca980e4, type: 3}
   bulletSpeed: 100
-  fireRate: 1.5
+  fireRate: 1
   bulletSpread: 30
   maxAmmo: 6
-  reloadTime: 6
+  reloadTime: 0.6
   shotgunShots: 6
-  damage: 18
+  damage: 5
   rarity: 1
   offSet: {x: 1.6, y: 0.13}
-  audioPath: 
+  audioPathReload: event:/Weapons/Uncommon/R870/R870_Reload
+  audioPathShoot: event:/Weapons/Uncommon/R870/R870

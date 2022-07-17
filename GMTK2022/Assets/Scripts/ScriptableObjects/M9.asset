@@ -17,12 +17,13 @@ MonoBehaviour:
   cardArt: {fileID: 21300000, guid: 1ff8e525a27f8ff4ab00677829684522, type: 3}
   armArt: {fileID: 21300000, guid: 57836212d1c13104c827499c97e2bfd5, type: 3}
   bulletSpeed: 90
-  fireRate: 0.5
-  bulletSpread: 15
+  fireRate: 0.17
+  bulletSpread: 12
   maxAmmo: 18
-  reloadTime: 3
+  reloadTime: 0.85
   shotgunShots: 1
-  damage: 20
+  damage: 8
   rarity: 0
   offSet: {x: 1, y: 0.1}
-  audioPath: 
+  audioPathReload: event:/Weapons/Commons/M9/M9_Reload
+  audioPathShoot: event:/Weapons/Commons/M9/M9

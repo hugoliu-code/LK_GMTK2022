@@ -16,13 +16,14 @@ MonoBehaviour:
   description: The remmington 700 is a slow but reliable rifle
   cardArt: {fileID: 21300000, guid: aa55dc58004905a40986fb6d0953347c, type: 3}
   armArt: {fileID: 21300000, guid: a1eda3e56f65daf4f87add3a4a7d6875, type: 3}
-  bulletSpeed: 170
+  bulletSpeed: 95
   fireRate: 2
   bulletSpread: 3
   maxAmmo: 4
-  reloadTime: 5
+  reloadTime: 2.1
   shotgunShots: 1
   damage: 80
   rarity: 1
   offSet: {x: 1.8, y: 0.15}
-  audioPath: 
+  audioPathReload: event:/Weapons/Uncommon/R700/R700_Reload
+  audioPathShoot: event:/Weapons/Uncommon/R700/R700
