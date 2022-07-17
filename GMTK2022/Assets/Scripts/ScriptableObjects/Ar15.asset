@@ -10,19 +10,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6b839d98e57c99d48a0d4a0678aa8d45, type: 3}
-  m_Name: Vector
+  m_Name: Ar15
   m_EditorClassIdentifier: 
-  name: Kriss Vector
-  description: Blaze through enemies with 1600 RPM and lightning quick reloads
-  cardArt: {fileID: 21300000, guid: a99ee9a55d6f3b746a14b4524386e6fc, type: 3}
-  armArt: {fileID: 21300000, guid: 405962dd3b6360243a37e6e76767d012, type: 3}
-  bulletSpeed: 80
-  fireRate: 0.02
-  bulletSpread: 5
-  maxAmmo: 30
-  reloadTime: 2
+  name: ar15
+  description: You can find one of these at your nearest Walmart! \n a reliable shot
+  cardArt: {fileID: 21300000, guid: bee6ea33994a30140ba44280cbfbff3b, type: 3}
+  armArt: {fileID: 21300000, guid: 8413cf5dac0f4e54dbf80659592c6172, type: 3}
+  bulletSpeed: 100
+  fireRate: 0.1
+  bulletSpread: 10
+  maxAmmo: 25
+  reloadTime: 4
   shotgunShots: 1
-  damage: 10
-  rarity: 3
-  offSet: {x: 1, y: -0.03}
+  damage: 15
+  rarity: 1
+  offSet: {x: 0, y: 0}
   audioPath: 
